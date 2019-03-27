@@ -125,6 +125,10 @@ class Header extends React.Component{
                         <li id="getstLi"  onMouseEnter={() => this.onMouseEnter()}  onMouseLeave={() => this.onMouseLeave()}  style={this.state}>
                         <a>GET STARTED</a></li>
                        </ul> 
+                       <div>
+                       </div>
+                           </div>
+                        
  
     
          

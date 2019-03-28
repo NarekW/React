@@ -1,0 +1,122 @@
+
+header {  
+  background-color: white;  
+  position: fixed;  
+  top: 0;  
+  z-index: 1000;  
+  width: 100%;  
+  
+}
+
+ul.Spisoks {
+
+  position: relative;
+  top: 30px;
+  border:none 1px solid;
+  float:left;
+  list-style-type: none;
+  display: block;
+  margin-left: 10px; /* Обнуляем значение отступов */
+  padding: 0px; /* Значение полей */
+  width: 125px;
+ }
+ ul.Spisoks li {
+   position: relative;
+  flex-grow: 1;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  margin-right: 0px; /* Отступ слева */
+  
+  padding: 3px; /* Поля вокруг текста */
+ }
+
+ul.Spisoks ul{
+  position: relative;
+
+  width:170px;
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+  margin-top: 39px;
+
+}
+
+ul.Spisoks ul li{
+  list-style-type: none; /* Убираем маркеры */
+}
+
+.afterspisok .aflinkspis{
+  position: relative;
+  text-decoration: none;
+  top: 15px;
+  display: block;
+  padding: 0 1.4em;
+  font-size: 14px;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 1.65em;
+  color: #3E3E3E;
+
+}
+.afterspisok .aflinkspis:hover{
+text-decoration: underline;
+color: #00aeef;
+}
+ul.Spisoks ul li a{
+  font-weight: 300;
+  color: #3E3E3E;
+  text-decoration: none;
+  font-size: .95em;
+}
+ul.Spisoks ul li a:hover{
+  color: #00aeef;
+   text-decoration: underline;
+
+}
+.afterspisok{
+  height: 60px;
+}
+
+
+
+
+
+.afterspisok ul li{
+  background: #fff;
+
+  width:160px;
+  height: 55px;
+}
+
+
+
+#max{
+  width: 166px;
+}
+
+
+
+.Mini{
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

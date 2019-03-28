@@ -1,4 +1,5 @@
 import React from "react";
+import '../css/SuperStyle.css';
 
 
 
@@ -83,7 +84,9 @@ class Main extends React.Component{
                     </div>
 
                 </div>
+                
             </section>
+            
         );
     }
 }

@@ -1,0 +1,187 @@
+#main{
+  position: relative;
+  top:92px;
+  z-index: 0;
+  }
+  
+  
+  #OblojkaDiv{
+  
+    height: 615px;
+    overflow: hidden;
+    background: #00aeef; 
+    margin-top:23px;
+    width: 1920px;
+    background: -webkit-linear-gradient(top left, #9327f5 0%, #ff1453 100%);
+    background: linear-gradient(to bottom right, #9327f5 0%, #ff1453 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$purple', endColorstr='$red',GradientType=1 );
+    color: #fff;
+  }
+  
+  
+  
+  
+  
+  #Shapee1{
+  background-color:none;
+  background-size: 121px;
+  position: relative;
+  top:150px;
+  background-repeat: no-repeat;
+  background-image: url("../img/shape1.png");
+  width: 107px;
+  height: 300px;
+  }
+  
+  #Shapee2{
+  background-color:none;
+  position: relative;
+  left: 1813px;
+  bottom: 130px;
+  margin: 0px;
+  padding: 0px;
+  background-size: 141px;
+  background-repeat: no-repeat;
+  background-image: url("../img/shapeee2.png");
+  width: 107px;
+  height: 300px;
+  }
+  
+  #SuperHero{
+    background: none;
+    position: relative;
+    left: 800px;
+    bottom: 600px;
+    
+    background-size: 1500px;
+    
+    background-image: url("../img/men1.png");
+    background-position: 95% 53%;  
+    background-repeat: no-repeat;
+    width:710px;
+    height: 450px;
+    
+  }
+  
+  #info h4{
+  font-size:18px;
+  position: relative;
+  bottom: 14px;
+  }
+  #info{
+  position: relative;
+  border:1px none solid;
+  width: 300px;
+  height: 180px;
+  left: 400px;
+  
+  top:100px;
+  }
+  
+  #Infomer h1 p {
+  position: relative;
+  bottom: 55px;
+  }
+  
+  #info b{
+  position: relative;
+  bottom: 28px;
+  }
+  #info p{
+  position: relative;
+  bottom: 40px;
+  font-size:15px;
+  font-weight:600;
+  
+  }
+  #info #read{
+  color:#EFA4D3;
+  bottom: 50px;
+  }
+  #Infomer p{
+  position: relative;
+  bottom: 82px;
+  padding: 0;
+  }
+  #Infomer{
+  position: relative;
+  background: none;
+  width:400px;
+  left:480px;
+  bottom: 1000px;
+  z-index: 1000;
+  }
+  
+  #getbutton a{
+  position: relative;
+  left: 20px;
+  font-weight: bold;
+  }
+  #getbutton a::after{
+  content: '\9658';
+  }
+  #getbutton{
+  
+  background: red;  
+  position: relative;
+  bottom: 75px;
+  width:160px;
+  padding: 11px;
+  border-radius: 4px;
+  }
+  h1 {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  }
+  
+  
+  body{
+    color: #3E3E3E;
+  
+    font-size: 1rem;
+    line-height: 1.667;
+  }
+  
+  h1, h2, h3 {
+  
+  font-size: 40px;
+  font-family: "Lora",serif;
+  }
+  
+  
+  
+  
+  #bt1{
+  background-color: red;
+  position: relative;
+  top:170px;
+  background-image: url('../img/slaq.png');
+  background-repeat: no-repeat;
+  background-size:23px;
+  z-index: 99999;
+  height: 30px;
+  border:none;
+  }
+  
+  #bt2{
+  background-color: red;
+  position: relative;
+  left: 400px;
+  top:170px;
+  left:440px;
+  background-image: url('../img/slaq2.png');
+  background-repeat: no-repeat;
+  background-size:23px;
+  height: 30px;
+  width:15px;
+  border:none;
+  }
+  
+  
+  
+  
+  
+  
+  
+  

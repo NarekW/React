@@ -52,7 +52,7 @@ class Header extends React.Component{
             <div id="HeaderDiv">    
             <div>    
                 
-                <ul class="Spisoks Mini">
+                <ul class="Spisoks Mini" id="jan">
                         <li class="afterspisok"> <a class ="aflinkspis" href="asdasd">Home</a>
                         </li>
                  </ul>  
@@ -84,18 +84,7 @@ class Header extends React.Component{
                                     </ul>
                         </li>
                  </ul> 
-                 <ul class="Spisoks " id="max">
-                        <li class="afterspisok" id = 'elm_3'> <a class ="aflinkspis" href="asdasd">Lean More</a>
-                                <ul class ='Limon' id="LimonElm_3" >
-                                        <li><a href="sadsa">Customer Stories</a></li>
-                                        <li><a href="sadsa">Resources</a></li>
-                                        <li><a href="sadsa">AdRoll Blog</a></li>
-                                        <li><a href="sadsa">Developler API</a></li>
-                                        <li><a href="sadsa">Help Center</a></li>
-                                      
-                                    </ul>
-                        </li>
-                 </ul>
+   
                 </div>  
                </div>             
         )

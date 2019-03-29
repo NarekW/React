@@ -9,7 +9,7 @@ header {
 }
 
 ul.Spisoks {
-
+  border: solid 1px black;
   position: relative;
   top: 30px;
   border:none 1px solid;
@@ -18,7 +18,7 @@ ul.Spisoks {
   display: block;
   margin-left: 10px; /* Обнуляем значение отступов */
   padding: 0px; /* Значение полей */
-  width: 125px;
+  width: 160px;
  }
  ul.Spisoks li {
    position: relative;
@@ -87,18 +87,10 @@ ul.Spisoks ul li a:hover{
   height: 55px;
 }
 
-
-
-#max{
-  width: 166px;
+#jan{
+  width: 90px;
 }
 
-
-
-.Mini{
-
-  
-}
 
 
 

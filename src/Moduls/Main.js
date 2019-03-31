@@ -1,5 +1,6 @@
 import React from "react";
 import '../css/SuperStyle.css';
+import hero from '../img/men1.png'
 
 
 
@@ -11,7 +12,7 @@ class Main extends React.Component{
         this.state = {
             border: '2px solid #fff',
            
-            background: '#D61B90',
+            background: '#C41FAC',
             textcolor:{
                 color:'#fff'
         }
@@ -27,10 +28,11 @@ class Main extends React.Component{
             backgroundPosition: 'right bottom',
             backgroundSize: '100% 1400%',
             transition: 'all .65s ease-out',
+            
         
-            border: '2px solid #BC1FB7',
+            border: '2px solid #C41FAC',
             textcolor:{
-                color:'#3E3E3E'
+            color:'#3E3E3E'
         }
         })        //        transition: all .65s ease-out;
       }
@@ -51,22 +53,24 @@ class Main extends React.Component{
     render()
     {
         return( 
+            <div>
             <section>
                 
                 <div id="OblojkaDiv">
-                
+                    
                     <div id="Shapee1">
                     </div>
                     <div id="Shapee2">
                     </div>
-                    <div id="SuperHero">
+                    <div id="SuperHero"><img src={hero}/>
                     <div id="info">
                     <a href="sadasd">
-                    <h4>Adam Lasky<br />TeePublic</h4> 
+                    <h4>Adam Lasky<br />
+                    TeePublic</h4> 
                     
-                    <p>Doubled revenue over<br /> 
-                    the holiday season.</p>
-                    <p id="read">READ CASE STUDY</p>
+                    <span><p>Doubled revenue over<br /> 
+                   <a id='bottext'>the holiday season.</a></p></span>
+                    <p id="read">READ CASE STUDY <i class="fas fa-angle-right"></i></p>
                     </a>
    
                     </div>
@@ -76,9 +80,12 @@ class Main extends React.Component{
                     <div id="Infomer">
                         <h1>Grow your business.
                             <p>Boost your sales.</p></h1>
-                        <p>Attract and convert visitors to your online store with display ads, social, email, and now video ads.</p>
+                        <span><p id='attract'>Attract and convert visitors to your online store with display ads, social, email, and now video ads.</p></span>
                         <div id="getbutton"  onMouseEnter={() => this.onMouseEnter()}  onMouseLeave={() => this.onMouseLeave()}  style={this.state}>
-                            <a style={this.state.textcolor}>GET STARTED</a>
+                            <a style={this.state.textcolor}>GET STARTED <i class="fas fa-angle-right"></i></a>
+                            
+                        </div>
+                        <div id='dec'>
                         </div>
 
                     </div>
@@ -86,7 +93,8 @@ class Main extends React.Component{
                 </div>
                 
             </section>
-            
+
+            </div>
         );
     }
 }

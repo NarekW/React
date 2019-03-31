@@ -4,12 +4,19 @@ header {
   position: fixed;  
   top: 0;  
   z-index: 1000;  
+  height: 115px;
   width: 100%;  
   
 }
 
+#price{
+  position: relative;
+  right: 20px;
+  width: 100px;
+}
+
 ul.Spisoks {
-  border: solid 1px black;
+ 
   position: relative;
   top: 30px;
   border:none 1px solid;
@@ -18,7 +25,8 @@ ul.Spisoks {
   display: block;
   margin-left: 10px; /* Обнуляем значение отступов */
   padding: 0px; /* Значение полей */
-  width: 160px;
+  width: 187px;
+  height: 70px;
  }
  ul.Spisoks li {
    position: relative;
@@ -32,14 +40,24 @@ ul.Spisoks {
 
 ul.Spisoks ul{
   position: relative;
-
-  width:170px;
+  right: 4px;
+  width:185px;
   margin-left: 0; /* Отступ слева в браузере IE и Opera */
   padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
-  margin-top: 39px;
+  margin-top: 42px;
+
 
 }
-
+.Limon li a{
+  position: relative;
+  left: 15px;
+  top:14px;
+}
+#max{
+  position: relative;
+  right:90px;
+  height: 70px;
+}
 ul.Spisoks ul li{
   list-style-type: none; /* Убираем маркеры */
 }
@@ -75,40 +93,144 @@ ul.Spisoks ul li a:hover{
 .afterspisok{
   height: 60px;
 }
+#why{
+  padding: 0;
+  width: 125px;
+}
 
+#part{
+  position: relative;
+  right: 20px;
+  width:180px;
+  height: 70px;
+  
+}
+#laguages{
+  position: relative;
+  left: 1531px;
+  padding-right: 60px;
 
-sa
-
-
+background: #E5E9F2;
+}
+#laguages img{
+  position: relative;
+  bottom: 10px;
+  height: 10px;
+}
+#laguages a{
+  font-size: 10px;
+    line-height: 2.4em;
+    max-height: 88px;
+    font-weight: bold;
+  position: relative;
+  bottom: 12px;
+  left: 10px;
+}
 .afterspisok ul li{
   background: #fff;
 
-  width:160px;
+
+  width:180px;
   height: 55px;
 }
 
 #jan{
   width: 90px;
 }
+#what{
+  height: 70px;
+}
+#what ul li{
+  height: 70px;
+
+}
+#bro1{
+  padding-right: 10px;
+  background: #fff;
+}
+#bro2{
+
+}
+#lists{
+  position: relative;
+  bottom: 52px;
+}
+.Limon{
+  border-top:#F4F6F9 solid 1px;
+}
+ul#logos{
+
+
+  background: #F4F6F9;
+  height: 36px;
+  padding-left: 0px;
+  margin:0;
+  
+}
+ul#logos li {
+  position: relative;
+  top:2px;
+
+
+  padding-top: 20px;
+  padding-left: 12px;
+  
+  list-style-type: none; /* Убираем маркеры */
+  display: inline; /* Отображать как строчный элемент */
+}
+
+#logos li img{
+  max-height: 30px;
+}
+
+
+
+#starter{
+  position: relative;
+  left: 717px;
+  top: 50px
+}
+ul#starter li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 10px; 
+
+}
+
+#getstart{
+  
+  border-radius: 5px;
+  padding-bottom: 33px;
+  background: #00aeef;
+}
+
+#getstart a
+{
+  position: relative;
+  top: 15px;
+  left: 40px;
+  padding-right: 75px;
+  font-weight: 300px;
+  text-decoration: none;
+  color:#fff;
+}
+#getstart a::after{
+
+}
+
+
+#logintext a{
+  position: relative;
+  top: 15px;
+  right: 5px;
+  font-size: 14px;
+  color: #3E3E3E;
+  text-decoration: none;
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#logintext a:hover{
+  color:#00aeef;
+}

@@ -4,9 +4,11 @@ import './css/index.css';
 import Header from './Moduls/Header.js';
 import Main from './Moduls/Main.js';
 import SelTwo from './Moduls/HomepageTwo.js'
+import Hem3 from './Moduls/Homepage3.js'
 import * as serviceWorker from './serviceWorker';
 
 
+ReactDOM.render(<Hem3 />,document.querySelector('#home3'));
 ReactDOM.render(<SelTwo />,document.querySelector('#narek'));
 ReactDOM.render(<Header />,document.querySelector('#root'));
 ReactDOM.render(<Main />,document.querySelector('#main'));

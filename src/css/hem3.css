@@ -1,0 +1,141 @@
+#home3{
+    position: relative;
+    top: 40px;
+    
+   
+}
+.koko4 img{
+    margin-left: 500px;
+}
+#home3 img{max-height: 800px;}
+
+.koko img{
+    margin-left: 690px;
+    max-height: 800px;
+    
+}
+.koko2 img{
+    height: 600px;
+    width: 2000px;
+}
+.koko3 img{
+    height: 400px;
+    margin-left: 400px;
+}
+
+
+
+.hr {
+    float:left;
+    position: relative;
+    padding-right: 50px;
+    list-style-type: none;
+    display: block;
+    margin: 0; /* Обнуляем значение отступов */
+    
+    padding: 0px; /* Значение полей */
+    width: 190px;
+   }
+   .social .fab{
+      position: relative;
+      width: 20px;
+      margin-left: 10px;
+      text-decoration: none;
+      color: #3E3E3E;
+      font-size: 20px;
+      margin-bottom: 10px;
+   }
+   .fotterContainer{
+      position: relative;
+      margin-top: 50px;
+      margin-left: 400px;
+      height: 300px;
+      width:1500px ;
+   }
+
+   #foother-sub{
+      position: relative;
+      top: 270px;
+   }
+
+   .hr li {
+    flex-grow: 1;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    margin-right: 5px; /* Отступ слева */
+    
+    padding: 3px; /* Поля вокруг текста */
+   }
+
+ .hr ul{
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    margin-top: 10px;
+  
+ }
+
+ ul.hr ul li{
+    list-style-type: none; /* Убираем маркеры */
+ }
+
+ .after .aflink{
+   color: #3E3E3E;
+   font-weight: bold;
+   font-size: .95em;
+   border-bottom: 1px solid transparent;
+ }
+ ul.hr ul li a{
+    font-weight: 300;
+    color: #3E3E3E;
+    text-decoration: none;
+    font-size: .95em;
+ }
+ ul.hr ul li a:hover{
+     text-decoration: underline;
+
+ }
+#com{
+   position: relative;
+   top: 200px;
+}
+#com ul{
+
+   list-style-type: none;
+  
+   position: absolute;
+   padding: 0;
+   margin: 0;
+}
+#com ul li{
+   padding-left: 35px;
+   display: inline;
+
+   width:300px;
+   position: relative;
+}
+#com ul img{
+   max-height: 150px;
+   max-width: 150px;
+}
+.dsa{
+   font-size: .75em;
+    color: #3E3E3E;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+}
+a{
+   color:#00aeef;
+}
+#end{
+   display: block;
+   position: relative;
+   left: 340px;
+    margin-top: .75em;
+    margin-bottom: 0;
+    font-size: .65em;
+    color: #3E3E3E;
+}
+#ayo{
+   position: relative;
+   top: 50px;
+}

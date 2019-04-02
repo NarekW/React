@@ -1,12 +1,99 @@
 import React from "react";
 import '../css/SuperStyle.css';
-import hero from '../img/men1.png'
+import hero from '../img/qyal.png'
+import male from '../img/male.png' 
+import MensWorld from '../img/menworld.png'
+import logo from '../img/qyal.png';
 
 
 
 class Main extends React.Component{
 
+    handleClick(){
+        
+        function Male(){
+            var Men = document.querySelector('#heroes');
+            Men.src=male;
+            Men.style.height='500px';
+            Men.style.position = "relative"
+            Men.style.top='30px';
+            Men.style.right='70px';
+    
+            var sutypos = document.querySelector('#info');
+            console.log(sutypos)
+            sutypos.style.position = "relative"
+            sutypos.style.bottom='450px';
 
+            var Herotext = document.querySelector('#info h4');
+            Herotext.textContent = 'Hannah Kenndey Bofm ';
+    
+            var Buttons = document.querySelectorAll('.buttons');
+            Buttons.forEach(function(element) {
+                console.log(element);
+                element.style.position = "relative"
+                element.style.bottom='450px';
+    
+              });
+              return 
+        };
+        function MeWorld(){
+            var Men = document.querySelector('#heroes');
+            Men.src=MensWorld;
+            Men.style.height='500px';
+            Men.style.position = "relative"
+            Men.style.top='30px';
+            Men.style.right='20px';
+    
+            var sutypos = document.querySelector('#info');
+            console.log(sutypos)
+            sutypos.style.position = "relative"
+            sutypos.style.bottom='450px';
+
+            var Herotext = document.querySelector('#info h4');
+            Herotext.textContent = 'Rich Krolikowski Sunski ';
+    
+            var Buttons = document.querySelectorAll('.buttons');
+            Buttons.forEach(function(element) {
+                console.log(element);
+                element.style.position = "relative"
+                element.style.bottom='450px';
+    
+              });
+              return 
+        };
+        function Adam(){
+            var Boss = document.querySelector('#heroes');
+            Boss.src=logo;
+            Boss.style.height='500px';
+            Boss.style.position = "relative"
+            Boss.style.top='10px';
+            Boss.style.right='20px';
+    
+            var sutypos = document.querySelector('#info');
+            console.log(sutypos)
+            sutypos.style.position = "relative"
+            sutypos.style.bottom='480px';
+
+            var Herotext = document.querySelector('#info h4');
+            Herotext.textContent = 'Adam Lasky TeePublic ';
+
+    
+            var Buttons = document.querySelectorAll('.buttons');
+            Buttons.forEach(function(element) {
+                console.log(element);
+                element.style.position = "relative"
+                element.style.bottom='450px';
+    
+              });
+              return 
+        };
+
+        var  array_of_functions = [function() {MeWorld()},function() {Male()},function() {Adam()}];
+        var rand = Math.floor(Math.random() * array_of_functions.length);
+        array_of_functions[rand]();
+        
+        
+      }
     constructor(){
         super();
         this.state = {
@@ -62,7 +149,7 @@ class Main extends React.Component{
                     </div>
                     <div id="Shapee2">
                     </div>
-                    <div id="SuperHero"><img src={hero}/>
+                    <div id="SuperHero"><img id='heroes' src={hero}/>
                     <div id="info">
                     <a href="sadasd">
                     <h4>Adam Lasky<br />
@@ -74,8 +161,8 @@ class Main extends React.Component{
                     </a>
    
                     </div>
-                    <button className="buttons" id="bt1"></button>
-                    <button className="buttons" id="bt2"></button>
+                    <button className="buttons" id="bt1" onClick={this.handleClick.bind(this)}></button>
+                    <button className="buttons" id="bt2" onClick={this.handleClick.bind(this)}></button>
                     </div>
                     <div id="Infomer">
                         <h1>Grow your business.

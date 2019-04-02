@@ -5,7 +5,17 @@ import Header from './Moduls/Header.js';
 import Main from './Moduls/Main.js';
 import SelTwo from './Moduls/HomepageTwo.js'
 import Hem3 from './Moduls/Homepage3.js'
+/**********************IMAGES******** */
+import adam from './img/qyal.png';
+import male from './img/male.png' 
+import MensWorld from './img/menworld.png'
+import logo from './img/men1.png';
+///////////////////////////////////////////
 import * as serviceWorker from './serviceWorker';
+
+
+
+
 
 
 ReactDOM.render(<Hem3 />,document.querySelector('#home3'));
@@ -121,3 +131,111 @@ kokos.forEach(function(element){
         element.style.backgroundColor ='#fff';
     });
 });
+/************************************ */
+
+
+
+function Male(){
+    var Men = document.querySelector('#heroes');
+    Men.src=male;
+    Men.style.height='500px';
+    Men.style.position = "relative"
+    Men.style.top='30px';
+    Men.style.right='70px';
+
+    var sutypos = document.querySelector('#info');
+    console.log(sutypos)
+    sutypos.style.position = "relative"
+    sutypos.style.bottom='450px';
+
+    var Herotext = document.querySelector('#info h4');
+    Herotext.textContent = 'Hannah Kenndey Bofm ';
+
+    var Buttons = document.querySelectorAll('.buttons');
+    Buttons.forEach(function(element) {
+        console.log(element);
+        element.style.position = "relative"
+        element.style.bottom='450px';
+
+      });
+      return 
+};
+function MeWorld(){
+    var Men = document.querySelector('#heroes');
+    Men.src=MensWorld;
+    Men.style.height='500px';
+    Men.style.position = "relative"
+    Men.style.top='30px';
+    Men.style.right='20px';
+
+    var sutypos = document.querySelector('#info');
+    console.log(sutypos)
+    sutypos.style.position = "relative"
+    sutypos.style.bottom='450px';
+
+    var Herotext = document.querySelector('#info h4');
+    Herotext.textContent = 'Rich Krolikowski Sunski ';
+
+    var Buttons = document.querySelectorAll('.buttons');
+    Buttons.forEach(function(element) {
+        console.log(element);
+        element.style.position = "relative"
+        element.style.bottom='450px';
+
+      });
+      return 
+};
+function Adam(){
+    var Boss = document.querySelector('#heroes');
+    Boss.src=adam;
+    Boss.style.height='500px';
+    Boss.style.position = "relative"
+    Boss.style.top='10px';
+    Boss.style.right='20px';
+
+    var sutypos = document.querySelector('#info');
+    console.log(sutypos)
+    sutypos.style.position = "relative"
+    sutypos.style.bottom='480px';
+
+    var Herotext = document.querySelector('#info h4');
+    Herotext.textContent = 'Adam Lasky TeePublic ';
+
+
+    var Buttons = document.querySelectorAll('.buttons');
+    Buttons.forEach(function(element) {
+        console.log(element);
+        element.style.position = "relative"
+        element.style.bottom='450px';
+
+      });
+      return 
+};
+
+
+
+/////////////////////////////////////////////////////////
+setInterval(function(){ 
+            var  array_of_functions = [function() {MeWorld()},function() {Male()},function() {Adam()}];
+            var rand = Math.floor(Math.random() * array_of_functions.length);
+            array_of_functions[rand](); }, 4000);
+/*
+var imageURl = document.querySelector('#heroes');
+console.log(imageURl);
+imageURl.src = './img/men1.png';
+
+function uploder(){
+    
+    var URLS = ['../img/group.png']
+    var imageURl = document.querySelector('#SuperHero img');
+    console.log(imageURl);
+    imageURl.src={Logos};
+}
+
+var Elemetos = document.querySelectorAll('.buttons');
+Elemetos.forEach(function(element){
+    element.addEventListener('click', uploder);
+});
+*/
+/*setInterval(function(){ 
+    alert("Hello"); }, 0);*/

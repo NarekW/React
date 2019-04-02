@@ -26,8 +26,37 @@ class Hem3 extends React.Component {
                 <img src={nk1}/>
                 </div>
                 <div className='koko4' >
-                <img src={nk2}/>
+                 <img src={nk2}/>
+
+                <div id='texto'>
+                <a>
+                <h3>I saw a noticeable increase in sales. I know now that the bulk of my budget needs to go into advertising on Instagram. Without AdRoll, I wouldn't have had the data to see that.</h3>
+        
+
+                <h3>Doug Ratner</h3>
+                <p>CEO and Founder</p>
+                <b>I’d Rather Be With My Dog</b>
+                </a>
+
+                <a>
+                <h3>I saw a noticeable increase in sales. I know now that the bulk of my budget needs to go into advertising on Instagram. Without AdRoll, I wouldn't have had the data to see that.</h3>
+        
+
+                <h3>Doug Ratner</h3>
+                <p>CEO and Founder</p>
+                <b>I’d Rather Be With My Dog</b>
+                </a>
+                <a>
+                <h3>I saw a noticeable increase in sales. I know now that the bulk of my budget needs to go into advertising on Instagram. Without AdRoll, I wouldn't have had the data to see that.</h3>
+        
+
+                <h3>Doug Ratner</h3>
+                <p>CEO and Founder</p>
+                <b>I’d Rather Be With My Dog</b>
+                </a>
                 </div>
+                </div>
+
                 <div className='koko5' >
                 <img src={jan}/>
                 </div>
@@ -36,7 +65,7 @@ class Hem3 extends React.Component {
                 <div class="fotterContainer">
             <div>
                 <ul class="hr">
-                        <li class="after"> <span class ="aflink">Why AdRoII</span>
+                        <li class="after"> <span className="aflink">Why AdRoII</span>
                                 <ul>
                                         <li><a href="sadsa">Overview</a></li>
                                         <li><a href="sadsa">API</a></li>
@@ -47,7 +76,7 @@ class Hem3 extends React.Component {
                        </ul>
 
                        <ul class="hr">
-                            <li class="after"> <span class ="aflink">What you can do</span>
+                            <li class="after"> <span className="aflink">What you can do</span>
                                     <ul>
                                             <li><a href="sadsa">Overview</a></li>
                                             <li><a href="sadsa">Attract more website visitors</a></li>
@@ -57,7 +86,7 @@ class Hem3 extends React.Component {
                             </li>
                            </ul>
                            <ul class="hr">
-                                <li class="after"> <span class ="aflink">Partners</span>
+                                <li class="after"> <span className="aflink">Partners</span>
                                         <ul>
                                                 <li><a href="sadsa">Agencies</a></li>
                                                 <li><a href="sadsa">integrations</a></li>
@@ -67,7 +96,7 @@ class Hem3 extends React.Component {
                                 </li>
                                </ul>
                                <ul class="hr">
-                                    <li class="after"><span class ="aflink">Lean More</span>
+                                    <li class="after"><span className="aflink">Lean More</span>
                                             <ul>
                                                     <li><a href="sadsa">AdRoll Blog</a></li>
                                                     <li><a href="sadsa"> Resources</a></li>
@@ -77,7 +106,7 @@ class Hem3 extends React.Component {
                                     </li>
                                    </ul>
                                    <ul class="hr">
-                                        <li class="after"><span class ="aflink">Company</span>
+                                        <li class="after"><span className="aflink">Company</span>
                                                 <ul>
                                                         <li><a href="sadsa">About</a></li>
                                                         <li><a href="sadsa">News</a></li>
@@ -105,12 +134,12 @@ class Hem3 extends React.Component {
             
                                                 <ul>       
                                                         <li  id='ayo' class="after"><img  src={jano}/></li>
-                                                        <li class="after"><span class ="dsa">Careers</span></li>
-                                                        <li class="after"><span class ="dsa">Trust Center</span></li>
-                                                        <li class="after"><span class ="dsa">Terms of Service</span></li>
-                                                        <li class="after"><span class ="dsa">Privacy Notice</span></li>
-                                                        <li class="after"><span class ="dsa">Infringement Policy</span></li>
-                                                        <li class="after"><span class ="dsa">Adjust Ad Preferences</span></li>
+                                                        <li class="after"><span className="dsa">Careers</span></li>
+                                                        <li class="after"><span className="dsa">Trust Center</span></li>
+                                                        <li class="after"><span className="dsa">Terms of Service</span></li>
+                                                        <li class="after"><span className="dsa">Privacy Notice</span></li>
+                                                        <li class="after"><span className="dsa">Infringement Policy</span></li>
+                                                        <li class="after"><span className="dsa">Adjust Ad Preferences</span></li>
                                                         <p id='end'>© 2006<script>new Date().getFullYear()>2006&&document.write("-"+new Date().getFullYear());</script>-2019, AdRoll, Inc. All rights reserved. AdRoll is a division of AdRoll Group. To learn more please visit <a href="https://www.adrollgroup.com" target="_blank">adrollgroup.com</a>.</p>
                                                         
                                                 </ul>

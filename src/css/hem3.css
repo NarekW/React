@@ -22,6 +22,11 @@
     height: 400px;
     margin-left: 400px;
 }
+.koko4 img{
+   
+   margin-left: 600px;
+}
+
 
 
 
@@ -138,4 +143,26 @@ a{
 #ayo{
    position: relative;
    top: 50px;
+}
+#texto a{
+ float: left;
+ margin: 0;
+ padding: 0;
+
+
+
+}
+.hes{
+   font-family: "Lora",serif;
+    margin: 0 0 .5em;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.15rem;
+}
+#texto{
+   width: 700px;
+   position: relative;
+   text-align: center;
+   margin-left: 640px;
+   bottom: 350px;
 }

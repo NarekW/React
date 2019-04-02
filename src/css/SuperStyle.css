@@ -18,15 +18,16 @@
   }
   
   
-  
+  #bt2{
+    z-index: 10000;
+  }
   
   #SuperHero img{
     position: relative;
-    right: 600px;
-    max-height: 700px;
-    bottom: 200px;
+    right: 0px;
+    max-height: 500px;
+    bottom: 10px;
   }
-  
   #Shapee1{
   background-color:none;
   background-size: 121px;
@@ -94,7 +95,7 @@
   height: 180px;
   left: 305px;
   
-  bottom:650px;
+  bottom:500px;
   }
  
   #dec{
@@ -204,7 +205,7 @@
   #bt1{
   background-color: red;
   position: relative;
-  bottom:650px;
+  bottom:450px;
   background-image: url('../img/slaq.png');
   background-repeat: no-repeat;
   background-size:23px;
@@ -218,7 +219,7 @@
   background-color: red;
   position: relative;
   left: 500px;
-  bottom:650px;
+  bottom:450px;
   left:450px;
   background-image: url('../img/slaq2.png');
   background-repeat: no-repeat;

@@ -70,13 +70,13 @@ class Header extends React.Component{
                         </li>
                  </ul>  
                  <ul class="Spisoks Mini" id="why">
-                        <li class="afterspisok"> <a class ="aflinkspis" href="asdasd">Why Adroll?</a>
+                        <li class="afterspisok"> <a className="aflinkspis" href="asdasd">Why Adroll?</a>
                         </li>
                  </ul>   
               
                  <ul class="Spisoks " id="what">
-                        <li class="afterspisok" id="elm_1"> <a class ="aflinkspis kuku" href="asdasd">What You can do? <i class="fas fa-chevron-down"></i></a>
-                                <ul class ='Limon' id="LimonElm_1">
+                        <li class="afterspisok" id="elm_1"> <a className="aflinkspis kuku" href="asdasd">What You can do? <i class="fas fa-chevron-down"></i></a>
+                                <ul className='Limon' id="LimonElm_1">
                                         <li><a href="sadsa">Attract more website <br/>visitors</a></li>
                                         <li><a href="sadsa">Convert visitors into<br/> customers</a></li>
                                         <li><a href="sadsa">Measure marketing<br/> impact</a></li>
@@ -86,12 +86,12 @@ class Header extends React.Component{
                  </ul>  
               
                  <ul class="Spisoks Mini" id="price">
-                        <li class="afterspisok" > <a class ="aflinkspis" href="asdasd">Pricing</a>
+                        <li class="afterspisok" > <a className="aflinkspis" href="asdasd">Pricing</a>
                         </li>
                  </ul> 
                  <ul class="Spisoks " id="part" >
-                        <li class="afterspisok" id = 'elm_2'> <a class ="aflinkspis kuku" href="asdasd">Partners<i class="fas fa-chevron-down"></i></a>
-                                <ul class ='Limon' id="LimonElm_2">
+                        <li class="afterspisok" id = 'elm_2'> <a className="aflinkspis kuku" href="asdasd">Partners<i class="fas fa-chevron-down"></i></a>
+                                <ul className='Limon' id="LimonElm_2">
                                         <li><a href="sadsa">Agencies</a></li>
                                         <li><a href="sadsa">Intergrations</a></li>
                                         <li><a href="sadsa">Platform as a Service</a></li>
@@ -100,8 +100,8 @@ class Header extends React.Component{
                         </li>
                  </ul> 
                  <ul class="Spisoks " id="max">
-                        <li class="afterspisok" id = 'elm_3'> <a class ="aflinkspis kuku" href="asdasd">Lean More <i class="fas fa-chevron-down"></i></a>
-                                <ul class ='Limon' id="LimonElm_3" >
+                        <li class="afterspisok" id = 'elm_3'> <a className="aflinkspis kuku" href="asdasd">Lean More <i class="fas fa-chevron-down"></i></a>
+                                <ul className='Limon' id="LimonElm_3" >
                                         <li><a href="sadsa">Customer Stories</a></li>
                                         <li><a href="sadsa">Resources</a></li>
                                         <li><a href="sadsa">AdRoll Blog</a></li>

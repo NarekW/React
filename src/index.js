@@ -30,7 +30,7 @@ serviceWorker.unregister();
 
 function ElementForeach(ElementName,EventName,Myfunction){
 
-    console.log(Myfunction);
+  
     console.log(typeof EventName=== 'function');
     /*if(Myfunction === undefined && Myfunction === undefined){
         console.log('chkaaaaaaaaaaaaaaa')
@@ -144,7 +144,7 @@ function Male(){
     Men.style.right='70px';
 
     var sutypos = document.querySelector('#info');
-    console.log(sutypos)
+ 
     sutypos.style.position = "relative"
     sutypos.style.bottom='450px';
 
@@ -153,7 +153,7 @@ function Male(){
 
     var Buttons = document.querySelectorAll('.buttons');
     Buttons.forEach(function(element) {
-        console.log(element);
+  
         element.style.position = "relative"
         element.style.bottom='450px';
 
@@ -169,7 +169,7 @@ function MeWorld(){
     Men.style.right='20px';
 
     var sutypos = document.querySelector('#info');
-    console.log(sutypos)
+
     sutypos.style.position = "relative"
     sutypos.style.bottom='450px';
 
@@ -178,7 +178,7 @@ function MeWorld(){
 
     var Buttons = document.querySelectorAll('.buttons');
     Buttons.forEach(function(element) {
-        console.log(element);
+      
         element.style.position = "relative"
         element.style.bottom='450px';
 
@@ -194,7 +194,7 @@ function Adam(){
     Boss.style.right='20px';
 
     var sutypos = document.querySelector('#info');
-    console.log(sutypos)
+
     sutypos.style.position = "relative"
     sutypos.style.bottom='480px';
 
@@ -204,7 +204,7 @@ function Adam(){
 
     var Buttons = document.querySelectorAll('.buttons');
     Buttons.forEach(function(element) {
-        console.log(element);
+        
         element.style.position = "relative"
         element.style.bottom='450px';
 
@@ -212,30 +212,19 @@ function Adam(){
       return 
 };
 
-
-
-/////////////////////////////////////////////////////////
 setInterval(function(){ 
             var  array_of_functions = [function() {MeWorld()},function() {Male()},function() {Adam()}];
             var rand = Math.floor(Math.random() * array_of_functions.length);
             array_of_functions[rand](); }, 4000);
-/*
-var imageURl = document.querySelector('#heroes');
-console.log(imageURl);
-imageURl.src = './img/men1.png';
+//////////////////////////////////////////////////////
 
-function uploder(){
-    
-    var URLS = ['../img/group.png']
-    var imageURl = document.querySelector('#SuperHero img');
-    console.log(imageURl);
-    imageURl.src={Logos};
-}
 
-var Elemetos = document.querySelectorAll('.buttons');
-Elemetos.forEach(function(element){
-    element.addEventListener('click', uploder);
-});
-*/
-/*setInterval(function(){ 
-    alert("Hello"); }, 0);*/
+
+
+setInterval(function(){
+var Mark = document.querySelector('marquee span');
+
+}, 10);
+
+
+

@@ -126,6 +126,7 @@ background: #E5E9F2;
   position: relative;
   bottom: 12px;
   left: 10px;
+  color:black;
 }
 .afterspisok ul li{
   background: #fff;
@@ -234,4 +235,11 @@ ul#starter li {
 
 #logintext a:hover{
   color:#00aeef;
+}
+
+
+
+
+#bro2 img:hover{
+  filter: sepia(1);
 }

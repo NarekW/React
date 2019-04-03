@@ -20,7 +20,7 @@ class Main extends React.Component{
             Men.style.right='70px';
     
             var sutypos = document.querySelector('#info');
-            console.log(sutypos)
+
             sutypos.style.position = "relative"
             sutypos.style.bottom='450px';
 
@@ -29,7 +29,7 @@ class Main extends React.Component{
     
             var Buttons = document.querySelectorAll('.buttons');
             Buttons.forEach(function(element) {
-                console.log(element);
+          
                 element.style.position = "relative"
                 element.style.bottom='450px';
     
@@ -45,7 +45,7 @@ class Main extends React.Component{
             Men.style.right='20px';
     
             var sutypos = document.querySelector('#info');
-            console.log(sutypos)
+     
             sutypos.style.position = "relative"
             sutypos.style.bottom='450px';
 
@@ -54,7 +54,7 @@ class Main extends React.Component{
     
             var Buttons = document.querySelectorAll('.buttons');
             Buttons.forEach(function(element) {
-                console.log(element);
+           
                 element.style.position = "relative"
                 element.style.bottom='450px';
     
@@ -80,7 +80,7 @@ class Main extends React.Component{
     
             var Buttons = document.querySelectorAll('.buttons');
             Buttons.forEach(function(element) {
-                console.log(element);
+          
                 element.style.position = "relative"
                 element.style.bottom='450px';
     

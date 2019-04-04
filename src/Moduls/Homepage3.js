@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import kekek from '../img/hahahaha.png';
-import men from '../img/ululuku.png';
-import yoyo from '../img/yoyo.png';
-import nk from '../img/mek.png';
-import nk1 from '../img/ura.png';
-import nk2 from '../img/border.png';
-import jan from '../img/getem.png';
+import kekek from '../img/Logo2.png';
+import men from '../img/Logo5.png';
+import nk from '../img/Logo4.png';
+import nk1 from '../img/Logo1.png';
+import nk2 from '../img/aad.png';
+import jan from '../img/getLogo.png';
 import jano from '../img/group.png';
 import '../css/hem3.css';
 

@@ -16,6 +16,7 @@ header {
   width: 100px;
 }
 
+
 ul.Spisoks {
  
   position: relative;
@@ -106,28 +107,7 @@ ul.Spisoks ul li a:hover{
   height: 70px;
   
 }
-#laguages{
-  position: relative;
-  left: 1531px;
-  padding-right: 60px;
 
-background: #E5E9F2;
-}
-#laguages img{
-  position: relative;
-  bottom: 10px;
-  height: 10px;
-}
-#laguages a{
-  font-size: 10px;
-    line-height: 2.4em;
-    max-height: 88px;
-    font-weight: bold;
-  position: relative;
-  bottom: 12px;
-  left: 10px;
-  color:black;
-}
 .afterspisok ul li{
   background: #fff;
 
@@ -160,31 +140,6 @@ background: #E5E9F2;
 .Limon{
   border-top:#F4F6F9 solid 1px;
 }
-ul#logos{
-
-
-  background: #F4F6F9;
-  height: 36px;
-  padding-left: 0px;
-  margin:0;
-  
-}
-ul#logos li {
-  position: relative;
-  top:2px;
-
-
-  padding-top: 20px;
-  padding-left: 12px;
-  
-  list-style-type: none; /* Убираем маркеры */
-  display: inline; /* Отображать как строчный элемент */
-}
-
-#logos li img{
-  max-height: 30px;
-}
-
 
 
 #starter{
@@ -241,5 +196,55 @@ ul#starter li {
 
 
 #bro2 img:hover{
+  filter: sepia(1);
+}
+
+ul#mylogos{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 35px;
+}
+ul#mylogos img{
+max-height: 30px;
+
+}
+ul#mylogos li{
+  position: relative;
+
+  padding-left:10px;
+  list-style: none;
+}
+ul#logos li a{}
+
+#lang{
+  margin-left: 1540px;
+  width: 100px;
+  text-align: center;
+  padding-top: 7px;
+  background: #E5E9F2;
+}
+#lang a{
+  margin-left: 3px;
+  font-size: .6em;
+  border: none;
+  color: #302d2e;
+  background: none;
+  border: none;
+  text-decoration: none;
+  width: 9vw;
+  max-width: 115px;
+  background: #E5E9F2;
+  font-weight: bold;
+}
+.logsContainer{
+  background: #F4F6F9;
+}
+#adroll{
+  background: #fff
+}
+
+
+#RollWorks:hover{
   filter: sepia(1);
 }

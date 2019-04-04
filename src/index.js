@@ -6,9 +6,9 @@ import Main from './Moduls/Main.js';
 import SelTwo from './Moduls/HomepageTwo.js'
 import Hem3 from './Moduls/Homepage3.js'
 /**********************IMAGES******** */
-import adam from './img/qyal.png';
-import male from './img/male.png' 
-import MensWorld from './img/menworld.png'
+import adam from './img/Adam.png';
+import male from './img/Hannah.png' 
+import MensWorld from './img/Richi.png'
 import logo from './img/men1.png';
 ///////////////////////////////////////////
 import * as serviceWorker from './serviceWorker';

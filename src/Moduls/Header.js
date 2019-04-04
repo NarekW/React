@@ -53,16 +53,14 @@ class Header extends React.Component{
         return(
             
             <div id="HeaderDiv">    
-            <div class='logsContainer'> 
-                <ul id='logos'>
-                    <li id='bro1'><a href='sdasd'><img src= {logo}/></a></li>
-                    <li id='bro2'><a href='sdasd'><img src= {logo2}/></a></li>
-                    <li id='laguages'>
-                    <img src={usafg} />
-                    <a>USA</a>
+            <nav class='logsContainer'> 
+                <ul id='mylogos'>
+                    <li id='adroll'><a href='#'><img src= {logo}/></a></li>
+                    <li ><img id='RollWorks' src= {logo2}/></li>
+                    <li id='lang'><img src={usafg} /><a>USA</a>
                     </li>
                 </ul>
-             </div>   
+             </nav>   
             <div id="lists">    
                 
                 <ul class="Spisoks Mini" id="jan">

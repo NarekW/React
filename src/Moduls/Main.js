@@ -1,9 +1,9 @@
 import React from "react";
 import '../css/SuperStyle.css';
-import hero from '../img/qyal.png'
-import male from '../img/male.png' 
-import MensWorld from '../img/menworld.png'
-import logo from '../img/qyal.png';
+import hero from '../img/Adam.png'
+import male from '../img/Hannah.png' 
+import MensWorld from '../img/Richi.png'
+import logo from '../img/Adam.png';
 
 
 

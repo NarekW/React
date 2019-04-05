@@ -221,10 +221,53 @@ setInterval(function(){
 
 
 
-setInterval(function(){
-var Mark = document.querySelector('marquee span');
+var myVar = setInterval(myTimer, 200);
 
-}, 10);
+function myTimer() {
+    var Mark = document.querySelector('#jano');
+    var rect = Mark.getBoundingClientRect();
+    Mark.style.position='relative';
+    Mark.style.left=rect.left-60+'px';
+    console.log(rect.left);
 
+    if(rect.left ===-500)
+    {
+        myStopFunction();
+       
+        console.log('1');
+       
+
+    }
+    if(rect.x ===700){     
+        myStopFunction();
+        console.log('2');
+        
+    }
+    if(rect.x ===100)
+    {                  
+        myStopFunction();
+        console.log('3');
+        
+        
+         
+    }
+}
+var myVar;
+var TimyVar;
+var TimeOut;
+function StartTimer(){
+
+    var TimyVar = setInterval(myTimer, 200);
+    
+}
+function RestartTimer(){
+      var TimeOut = setTimeout(StartTimer,1000);
+}
+function myStopFunction() {
+    clearInterval(myVar);
+    clearInterval(TimyVar);
+    clearTimeout(TimeOut);
+    RestartTimer();
+}
 
 

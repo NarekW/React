@@ -70,10 +70,9 @@ class Hem3 extends React.Component {
                 </div>
                 <div className='koko4' >
                  <img src={nk2}/>
-
                 <div id='texto'>
-                <marquee scrollamount='10'>
-                <span>
+                <span id='jano'>
+               
                 <a>
                 <h3>I saw a noticeable increase in sales. I know now<br/> 
                 that the bulk of my budget needs to go into<br/>
@@ -109,7 +108,7 @@ class Hem3 extends React.Component {
                 <b>I’d Rather Be With My Dog</b>
                 </a>
                 </span>
-                </marquee>
+               
                 
                 </div>
                 </div>

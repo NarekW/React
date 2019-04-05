@@ -109,7 +109,7 @@
     font-weight: 300;
     color: #3E3E3E;
     text-decoration: none;
-    font-size: .95em;
+    font-size: 13px;
  }
  ul.hr ul li a:hover{
      text-decoration: underline;
@@ -170,10 +170,10 @@ a{
     line-height: 2.15rem;
 }
 #texto a{
+   position: relative;
+   margin-left: 150px;
    display: inline-block;
    text-align: center;
-   margin-left: 150px;
-   position: relative;
  
   
 }
@@ -183,9 +183,8 @@ a{
 
    bottom: 380px;
 }
-
-#texto marquee{
-   margin-left: 730px;
-   margin-right: 650px;
+#texto span{
+   position: relative;
+   background: red;
+   left: 1300px;
 }
-

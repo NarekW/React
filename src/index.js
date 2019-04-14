@@ -133,89 +133,111 @@ kokos.forEach(function(element){
 });
 /************************************ */
 
-
+function StartImges()
+{
+    var  array_of_functions = [function() {MeWorld()},function() {Male()},function() {Adam()}];
+    var rand = Math.floor(Math.random() * array_of_functions.length);
+    array_of_functions[rand](); 
+}
 
 function Male(){
-    var Men = document.querySelector('#heroes');
-    Men.src=male;
-    Men.style.height='500px';
-    Men.style.position = "relative"
-    Men.style.top='30px';
-    Men.style.right='70px';
-
-    var sutypos = document.querySelector('#info');
- 
-    sutypos.style.position = "relative"
-    sutypos.style.bottom='450px';
-
-    var Herotext = document.querySelector('#info h4');
-    Herotext.textContent = 'Hannah Kenndey Bofm ';
-
-    var Buttons = document.querySelectorAll('.buttons');
-    Buttons.forEach(function(element) {
   
-        element.style.position = "relative"
-        element.style.bottom='450px';
-
-      });
+    var Men = document.querySelector('#heroes');
+    Men.style.opacity=0.25; 
+    setTimeout(() => {
+        Men.src=male;
+        Men.style.opacity=100; 
+        Men.style.height='500px';
+        Men.style.position = "relative"
+        Men.style.top='30px';
+        Men.style.right='70px';
+    
+        var sutypos = document.querySelector('#info');
+     
+        sutypos.style.position = "relative"
+        sutypos.style.bottom='450px';
+    
+        var Herotext = document.querySelector('#info h4');
+        Herotext.textContent = 'Hannah Kenndey Bofm ';
+    
+        var Buttons = document.querySelectorAll('.buttons');
+        Buttons.forEach(function(element) {
+      
+            element.style.position = "relative"
+            element.style.bottom='450px';
+    
+          });     
+    }, 250);
+    
       return 
 };
 function MeWorld(){
     var Men = document.querySelector('#heroes');
-    Men.src=MensWorld;
-    Men.style.height='500px';
-    Men.style.position = "relative"
-    Men.style.top='30px';
-    Men.style.right='20px';
-
-    var sutypos = document.querySelector('#info');
-
-    sutypos.style.position = "relative"
-    sutypos.style.bottom='450px';
-
-    var Herotext = document.querySelector('#info h4');
-    Herotext.textContent = 'Rich Krolikowski Sunski ';
-
-    var Buttons = document.querySelectorAll('.buttons');
-    Buttons.forEach(function(element) {
+    Men.style.opacity=0.25; 
+    setTimeout(() => {
+        Men.src=MensWorld;
+        Men.style.opacity=100;
+        Men.style.height='500px';
+        Men.style.position = "relative"
+        Men.style.top='30px';
+        Men.style.right='20px';
+        Men.style.filter= 'alpha(Opacity=25)';
       
-        element.style.position = "relative"
-        element.style.bottom='450px';
+    
+        var sutypos = document.querySelector('#info');
+    
+        sutypos.style.position = "relative"
+        sutypos.style.bottom='450px';
+    
+        var Herotext = document.querySelector('#info h4');
+        Herotext.textContent = 'Rich Krolikowski Sunski ';
+    
+        var Buttons = document.querySelectorAll('.buttons');
+        Buttons.forEach(function(element) {
+          
+            element.style.position = "relative"
+            element.style.bottom='450px';
+    
+          });
+    },250)
 
-      });
       return 
 };
 function Adam(){
     var Boss = document.querySelector('#heroes');
-    Boss.src=adam;
-    Boss.style.height='500px';
-    Boss.style.position = "relative"
-    Boss.style.top='10px';
-    Boss.style.right='20px';
-
-    var sutypos = document.querySelector('#info');
-
-    sutypos.style.position = "relative"
-    sutypos.style.bottom='480px';
-
-    var Herotext = document.querySelector('#info h4');
-    Herotext.textContent = 'Adam Lasky TeePublic ';
-
-
-    var Buttons = document.querySelectorAll('.buttons');
-    Buttons.forEach(function(element) {
+    Boss.style.opacity=0.25; 
+    setTimeout(() => {
         
-        element.style.position = "relative"
-        element.style.bottom='450px';
+        Boss.src=adam;
+        Boss.style.height='500px';
+        Boss.style.position = "relative"
+        Boss.style.top='10px';
+        Boss.style.right='20px';
+        Boss.style.opacity=100; 
+    
+        var sutypos = document.querySelector('#info');
+    
+        sutypos.style.position = "relative"
+        sutypos.style.bottom='480px';
+    
+        var Herotext = document.querySelector('#info h4');
+        Herotext.textContent = 'Adam Lasky TeePublic ';
+    
+    
+        var Buttons = document.querySelectorAll('.buttons');
+        Buttons.forEach(function(element) {
+            
+            element.style.position = "relative"
+            element.style.bottom='450px';
+    
+          });
 
-      });
+    }, 250);
+
       return 
 };
 
-setInterval(function(){ 
-            var  array_of_functions = [function() {MeWorld()},function() {Male()},function() {Adam()}];
-            var rand = Math.floor(Math.random() * array_of_functions.length);
-            array_of_functions[rand](); }, 4000);
+setInterval(StartImges, 5000);
 //////////////////////////////////////////////////////
 
 
@@ -228,7 +250,7 @@ function myTimer() {
     var rect = Mark.getBoundingClientRect();
     Mark.style.position='relative';
     Mark.style.left=rect.left-60+'px';
-    console.log(rect.left);
+    
 
     if(rect.left ===-500)
     {
@@ -255,19 +277,19 @@ function myTimer() {
 var myVar;
 var TimyVar;
 var TimeOut;
-function StartTimer(){
-
-    var TimyVar = setInterval(myTimer, 200);
+function ClearTimers(){
+}
+function StartInterval(){
+    
+    
     
 }
 function RestartTimer(){
-      var TimeOut = setTimeout(StartTimer,1000);
+    
 }
 function myStopFunction() {
-    clearInterval(myVar);
-    clearInterval(TimyVar);
-    clearTimeout(TimeOut);
-    RestartTimer();
+   setInterval(myTimer, 20000);
+
 }
 
 

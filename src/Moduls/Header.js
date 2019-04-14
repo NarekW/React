@@ -20,34 +20,30 @@ class Header extends React.Component{
         super();
         this.state = {
             border: '2px solid #fff',
-            background: 'linear-gradient(45deg, #00d4c3, #5077DE);',
+            
+            background: '#00aeef',
             textcolor:{
                 color:'#fff'
         }
-           
         }
         
     };
     onMouseEnter() 
     {        
             this.setState({
-               
-                background: 'linear-gradient(45deg, #7627DE, #169BDE)',
-            textcolor:{
-                color:'#3E3E3E'
-        }
+                background: 'linear-gradient(45deg, #7B68EE, #8A2BE2)',
         })        //        transition: all .65s ease-out;
       }
       onMouseLeave(){
           this.setState({ 
+            border: '2px solid #fff',
             
-            background: 'linear-gradient(45deg, #00d4c3, #5077DE);',
+            background: '#00aeef',
             textcolor:{
-                    color:'#fff'
-            }
+                color:'#fff'
+        }
           })
       }
-
     render(){
         
         return(
@@ -111,7 +107,7 @@ class Header extends React.Component{
                  </ul>
                     <ul ID='starter'>
                     <li id='logintext'><a href='sdasadsad'>Login</a></li>
-                    <li id='getstart'><a href='SDSDSD'>GET STARTED <i class="fas fa-arrow-right"></i></a></li>
+                    <li id='getstart' style={this.state} onMouseEnter={() => this.onMouseEnter()} onMouseLeave={() => this.onMouseLeave()}><a href='SDSDSD'>GET STARTED <i class="fas fa-arrow-right"></i></a></li>
                     </ul>
                 </div>  
                </div>             

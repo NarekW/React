@@ -20,8 +20,8 @@ class Header extends React.Component{
         super();
         this.state = {
             border: '2px solid #fff',
-            
-            background: '#00aeef',
+            transition: 'all 150ms ease-in-out',
+            background: 'linear-gradient(45deg, #0DC5C7, #4582DA)',
             textcolor:{
                 color:'#fff'
         }
@@ -31,14 +31,18 @@ class Header extends React.Component{
     onMouseEnter() 
     {        
             this.setState({
-                background: 'linear-gradient(45deg, #7B68EE, #8A2BE2)',
+                background: 'linear-gradient(45deg, #4A7EDC, #8C30F3)',
+               
+                //letterSpacing: '1px',
+                //backgroundSize: '200% auto'
+                //background-image: linear-gradient(45deg, #00d4c3, #9327f5);
         })        //        transition: all .65s ease-out;
       }
       onMouseLeave(){
           this.setState({ 
             border: '2px solid #fff',
             
-            background: '#00aeef',
+            background: 'linear-gradient(45deg, #0DC5C7, #4582DA)',
             textcolor:{
                 color:'#fff'
         }

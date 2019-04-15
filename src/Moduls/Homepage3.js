@@ -31,6 +31,7 @@ class Hem3 extends React.Component {
             backgroundPosition: 'right bottom',
             backgroundSize: '100% 1400%',
             transition: 'all .65s ease-out',
+            cursor: 'pointer',
             
         
             border: '2px solid #fff',
@@ -115,7 +116,7 @@ class Hem3 extends React.Component {
 
                 <div className='koko5' >
                 <div id='mybottom'  onMouseEnter={() => this.onMouseEnter()}  onMouseLeave={() => this.onMouseLeave()}  style={this.state}>
-                <a style={this.state.textcolor}>GET STARTED <i class="fas fa-angle-right"></i></a>
+                <a  href='asdasd' style={this.state.textcolor} >GET STARTED <i class="fas fa-angle-right"></i></a>
                 </div>
                 <img src={jan}/>
                 </div>

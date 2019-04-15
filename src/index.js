@@ -133,24 +133,24 @@ kokos.forEach(function(element){
 });
 /************************************ */
 
-function StartImges()
+/*function StartImges()
 {
     var  array_of_functions = [function() {MeWorld()},function() {Male()},function() {Adam()}];
     var rand = Math.floor(Math.random() * array_of_functions.length);
     array_of_functions[rand](); 
-}
+}*/
 
 function Male(){
-  
+    
     var Men = document.querySelector('#heroes');
-    Men.style.opacity=0.25; 
+    Men.style.opacity=0.45; 
     setTimeout(() => {
         Men.src=male;
         Men.style.opacity=100; 
         Men.style.height='500px';
         Men.style.position = "relative"
         Men.style.top='30px';
-        Men.style.right='70px';
+        Men.style.right='100px';
     
         var sutypos = document.querySelector('#info');
      
@@ -166,14 +166,14 @@ function Male(){
             element.style.position = "relative"
             element.style.bottom='450px';
     
-          });     
-    }, 250);
-    
+          }); 
+          var MensTimer = setTimeout(MeWorld,7000);
+    }, 200);
       return 
 };
 function MeWorld(){
     var Men = document.querySelector('#heroes');
-    Men.style.opacity=0.25; 
+    Men.style.opacity=0.45; 
     setTimeout(() => {
         Men.src=MensWorld;
         Men.style.opacity=100;
@@ -199,13 +199,13 @@ function MeWorld(){
             element.style.bottom='450px';
     
           });
-    },250)
-
+    },200);
+    var AdamTimer = setTimeout(Adam,7000);
       return 
 };
 function Adam(){
     var Boss = document.querySelector('#heroes');
-    Boss.style.opacity=0.25; 
+    Boss.style.opacity=0.45; 
     setTimeout(() => {
         
         Boss.src=adam;
@@ -231,13 +231,13 @@ function Adam(){
             element.style.bottom='450px';
     
           });
-
-    }, 250);
+          var AdamTimer = setTimeout(Male,7000);
+    }, 200);
+   
 
       return 
 };
-
-setInterval(StartImges, 5000);
+Adam();
 //////////////////////////////////////////////////////
 
 

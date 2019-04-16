@@ -71,8 +71,10 @@ class Hem3 extends React.Component {
                 </div>
                 <div className='koko4' >
                  <img src={nk2}/>
+          
                 <div id='texto'>
                 <span id='jano'>
+           
                
                 <a>
                 <h3>I saw a noticeable increase in sales. I know now<br/> 
@@ -109,10 +111,9 @@ class Hem3 extends React.Component {
                 <b>I’d Rather Be With My Dog</b>
                 </a>
                 </span>
-               
-                
                 </div>
                 </div>
+     
 
                 <div className='koko5' >
                 <div id='mybottom'  onMouseEnter={() => this.onMouseEnter()}  onMouseLeave={() => this.onMouseLeave()}  style={this.state}>

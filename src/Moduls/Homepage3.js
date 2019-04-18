@@ -88,7 +88,7 @@ class Hem3 extends React.Component {
                 <b>I’d Rather Be With My Dog</b>
                 </a>
 
-                <a>
+                <a id='kek1'>
                 <h3>I saw a noticeable increase in sales. I know now<br/> 
                 that the bulk of my budget needs to go into<br/>
                 advertising on Instagram. Without AdRoll, I<br/>
@@ -99,7 +99,8 @@ class Hem3 extends React.Component {
                 <p>CEO and Founder</p>
                 <b>I’d Rather Be With My Dog</b>
                 </a>
-                <a>
+
+                <a id='kek2'>
                 <h3>I saw a noticeable increase in sales. I know now<br/> 
                 that the bulk of my budget needs to go into<br/>
                 advertising on Instagram. Without AdRoll, I<br/>

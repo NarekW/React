@@ -171,23 +171,37 @@ a{
 }
 #texto a{
    position: relative;
-   margin-left: 150px;
+
    
    display: inline-block;
    text-align: center;
  
   
 }
+#kek1{
+   border: 1px solid red;
+   position: relative;
+   left: 550px;
+   bottom: 265px;
+}
+#kek2{
+   border: 1px solid red;
+   position: relative;
+   left: 1100px;
+   bottom: 530px;
+}
 #texto{
    
    position: relative;
-   margin-right: 600px;
-
-   overflow: hidden;
+   width: 500px;
+   border: 1px solid blue;
+   left: 750px;
+   right: 50px;
+  
    bottom: 380px;
 }
 #texto span{
    position: relative;
-   background: red;
-   left: 1300px;
+ 
+
 }

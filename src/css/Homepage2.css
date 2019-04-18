@@ -59,6 +59,10 @@ font-weight: bold;
 .may{
     margin-left: 20px;
     display:block; float:left;
+    z-index: 9999999;
+}
+.may:hover{
+    border: 1px red solid;
 }
 #comverimg{
 

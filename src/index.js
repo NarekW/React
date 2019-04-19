@@ -240,17 +240,53 @@ function Adam(){
 Adam();
 //////////////////////////////////////////////////////
 
-
 function myTimer() {
     var Mark = document.querySelector('#jano');
     var rect = Mark.getBoundingClientRect();
     Mark.style.position='relative';
-    Mark.style.right=+1+'px';
+    Mark.style.left=rect.x-750-60+'px';
+    console.log(rect.x);
+    if(rect.x ===330)
+    {
+        myStopFunction();  
+   
+    
+
+    }
+    else if(rect.x ===-210)
+    {     
+        myStopFunction();      
+    }
+    else if(rect.x ===-750)
+    {      
+      myStopFunction();    
+    }
+    else if(rect.x ===-1710)
+    {    
+        RestartString();  
+    }
     
 }
 
 var myVar = window.setInterval(myTimer, 100);
 
+
+function RestartTimer(){
+    myVar = setInterval(myTimer, 100); 
+}
+function myStopFunction() {
+    window.clearInterval(myVar);
+    setTimeout(RestartTimer,4000);
+ }
+ function RestartString(){
+    window.clearInterval(myVar);
+    var Mark = document.querySelector('#jano');
+    var rect = Mark.getBoundingClientRect();
+    Mark.style.position='relative';
+    console.log(rect.x)
+    Mark.style.left=rect.x+1650-60+'px';
+    RestartTimer();
+}
 /*function RestartTimer(){
     myVar = setInterval(myTimer, 100); 
 }

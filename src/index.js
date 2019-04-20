@@ -6,12 +6,9 @@ import Main from './Moduls/Main.js';
 import SelTwo from './Moduls/HomepageTwo.js'
 import Hem3 from './Moduls/Homepage3.js'
 /**********************IMAGES******** */
-import adam from './img/Adam.png';
-import male from './img/Hannah.png' 
-import MensWorld from './img/Richi.png'
-import logo from './img/men1.png';
 ///////////////////////////////////////////
 import * as serviceWorker from './serviceWorker';
+import { setTimeout } from 'timers';
 
 
 
@@ -28,7 +25,86 @@ ReactDOM.render(<Main />,document.querySelector('#main'));
 serviceWorker.unregister();
 
 
-function ElementForeach(ElementName,EventName,Myfunction){
+//****************************************** */
+var AdrollLogo = document.querySelector('#offrolworks a');
+AdrollLogo.style.zIndex = "100000";
+var AdrollLogoOff = document.querySelector('#onrollworks a');
+AdrollLogoOff.style.opacity='0';
+AdrollLogoOff.style.zIndex = "390000";
+
+AdrollLogoOff.addEventListener('mouseover', function(){
+    AdrollLogoOff.style.opacity='1';
+    AdrollLogoOff.addEventListener('mouseout', function(){
+        AdrollLogoOff.style.opacity='0';
+    });
+    
+});
+/********************************************** */
+var LanguagesLis = document.querySelector('#langul');
+LanguagesLis.style.display='none';
+
+var UlLangs = document.querySelector('#titlelang');
+
+UlLangs.addEventListener('mouseover',function(){
+    LanguagesLis.style.display='block';
+});
+
+var flagsUL = document.querySelector('#flags');
+flagsUL.addEventListener('mouseout', function(){
+    LanguagesLis.style.display='none';
+})
+/*************************/
+/***************************** */
+
+var Menu_UL=document.querySelectorAll('.wtfuis');
+Menu_UL.forEach(function(element) {
+    element.style.visibility = "hidden";
+  });
+
+//////////////////////////////////////////////////
+
+
+var ShowMenu_Li=document.querySelector('.show_0');
+ShowMenu_Li.addEventListener('mouseover' ,function(){
+  var uls = document.querySelector('#ules_0');
+      uls.style.visibility = "visible";
+      uls.addEventListener('mouseout',function(){
+          uls.style.visibility = "hidden";
+      });
+      ShowMenu_Li.addEventListener('mouseout' ,function(){
+          var uls = document.querySelector('#ules_0');
+              uls.style.visibility = "hidden";
+      });
+});
+
+
+
+var ShowMenu_Li1=document.querySelector('.show_1');
+ShowMenu_Li1.addEventListener('mouseover' ,function(){
+  var uls1 = document.querySelector('#ules_1');
+      uls1.style.visibility = "visible";
+      uls1.addEventListener('mouseout',function(){
+          uls1.style.visibility = "hidden";
+      });
+      ShowMenu_Li1.addEventListener('mouseout' ,function(){
+          var uls1 = document.querySelector('#ules_1');
+              uls1.style.visibility = "hidden";
+      });
+});
+var ShowMenu_Li3=document.querySelector('.show_2');
+ShowMenu_Li3.addEventListener('mouseover' ,function(){
+  var uls3 = document.querySelector('#ules_2');
+      uls3.style.visibility = "visible";
+      uls3.addEventListener('mouseout',function(){
+          uls3.style.visibility = "hidden";
+      });
+      ShowMenu_Li3.addEventListener('mouseout' ,function(){
+          var uls3 = document.querySelector('#ules_2');
+              uls3.style.visibility = "hidden";
+      });
+});
+/********************************/
+/*function ElementForeach(ElementName,EventName,Myfunction){
 
   
     console.log(typeof EventName=== 'function');
@@ -36,7 +112,7 @@ function ElementForeach(ElementName,EventName,Myfunction){
         console.log('chkaaaaaaaaaaaaaaa')
     }{
         console.log('chkaaaaaaaaaaaaaaa')
-    }*/
+    }
 
     if (typeof Myfunction === "function") 
     {
@@ -90,7 +166,7 @@ function mouseOut1(){
 var block1 = document.querySelector('#what');
 block1.addEventListener('mousemove', onMouseMove1);
 block1.addEventListener('mouseout', mouseOut1);
-/*********************** */
+/*********************** 
 
 function onMouseMove2(){
     var List2 = document.querySelector('#part ul');
@@ -105,7 +181,7 @@ block2.addEventListener('mousemove', onMouseMove2);
 block2.addEventListener('mouseout', mouseOut2);
 /*********************** */
 
-/*********************** */
+/*********************** 
 
 function onMouseMove3(){
     var List3 = document.querySelector('#max ul');
@@ -120,7 +196,7 @@ block3.addEventListener('mousemove', onMouseMove3);
 block3.addEventListener('mouseout', mouseOut3);
 
 
-/*********************** */
+/*********************** 
 var kokos = document.querySelectorAll('.Limon li');
 kokos.forEach(function(element){
 
@@ -138,7 +214,7 @@ kokos.forEach(function(element){
     var  array_of_functions = [function() {MeWorld()},function() {Male()},function() {Adam()}];
     var rand = Math.floor(Math.random() * array_of_functions.length);
     array_of_functions[rand](); 
-}*/
+}
 
 function Male(){
     
@@ -168,7 +244,7 @@ function Male(){
     
           }); 
           var MensTimer = setTimeout(MeWorld,7000);
-    }, 200);
+    }, 100);
       return 
 };
 function MeWorld(){
@@ -199,7 +275,7 @@ function MeWorld(){
             element.style.bottom='450px';
     
           });
-    },200);
+    },100);
     var AdamTimer = setTimeout(Adam,7000);
       return 
 };
@@ -232,13 +308,12 @@ function Adam(){
     
           });
           var AdamTimer = setTimeout(Male,7000);
-    }, 200);
+    }, 100);
    
 
       return 
 };
 Adam();
-//////////////////////////////////////////////////////
 
 function myTimer() {
     var Mark = document.querySelector('#jano');

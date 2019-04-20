@@ -1,251 +1,217 @@
-
-header {  
-  background-color: white;  
-  position: fixed;  
-  border-bottom: #E5E9F2 1px solid;
-  top: 0;  
-  z-index: 1000;  
-  height: 115px;
-  width: 100%;  
-  
-}
-
-#price{
-  position: relative;
-  right: 20px;
-  width: 100px;
-}
-
-
-ul.Spisoks {
+#site-switcher {
+    max-height: 40px;
+    width: 100%;
  
-  position: relative;
-  top: 30px;
-  border:none 1px solid;
-  float:left;
-  list-style-type: none;
-  display: block;
-  margin-left: 10px; /* Обнуляем значение отступов */
-  padding: 0px; /* Значение полей */
-  width: 187px;
-  height: 70px;
- }
- ul.Spisoks li {
-   position: relative;
-  flex-grow: 1;
-  display: list-item;
-  text-align: -webkit-match-parent;
-  margin-right: 0px; /* Отступ слева */
+   
+    padding: 0 1.4em 0 0;
+}
+header{
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+#site-switcher .nav-logo ul li a img {
+    max-height: 15px;
+    width: auto;
+   
+}
+#site-switcher .nav-logo ul li a {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3px 1.4em 0;
+    cursor: pointer;
+    height: 40px;
+
+    position: relative;
+    opacity: 1;
+}
+a{
+    color: #00aeef;
+    text-decoration: none;
+    transition: all 150ms ease-in-out;
+}
+a {
+    background: transparent;
+}
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#adrolbg{
+   width: 120px;
+   background: #fff;
+}
+#offrolworks{
+    background: #F4F6F9;
+    position: relative;
+    bottom: 86px;
+    width: 2000px;
+    margin-left: 120px;
+   
   
-  padding: 3px; /* Поля вокруг текста */
- }
-
-ul.Spisoks ul{
-  position: relative;
-  right: 4px;
-  width:185px;
-  margin-left: 0; /* Отступ слева в браузере IE и Opera */
-  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
-  margin-top: 42px;
-
-
 }
-.Limon li a{
-  position: relative;
-  left: 15px;
-  top:14px;
+#onrollworks{
+   background: #F4F6F9;
+   position: absolute;
+   bottom: 65px;
+   margin-left: 120px;
+   
+ 
+   
 }
-#max{
-  position: relative;
-  right:90px;
-  height: 70px;
+#logs{}
+#offadroll{
+    background: salmon;
+    width: 120px;
+    position: relative;
+    bottom: 43px;
+    opacity: 0;
 }
-ul.Spisoks ul li{
-  list-style-type: none; /* Убираем маркеры */
+#lang{
+    position: relative;
+    bottom: 127px;
+    left: 1600px;
+    border: 1px solid none;
+
+    
+    letter-spacing: 0px;
+    
+    z-index: 9999;
 }
 
-.afterspisok .aflinkspis{
-  position: relative;
-  text-decoration: none;
-  top: 15px;
-  display: block;
-  padding: 0 1.4em;
-  font-size: 14px;
-  display: table-cell;
-  vertical-align: middle;
-  line-height: 1.65em;
-  color: #3E3E3E;
-
+#flags li{
+    background: #E5E9F2;
+    border: none solid 1px;
+    height: 30px;
+   
+ 
 }
-.afterspisok .aflinkspis:hover{
-text-decoration: underline;
+
+#flags li:hover{
+    background: #F4F6F9;
+}
+#flags{
+   height: 270px;
+   width: 110px;
+   z-index: 9999;
+}
+#flags li a{
+    padding-left: 10px;
+    position: relative;
+    
+    font-size: .6em; 
+    vertical-align: middle;
+    width: 9vw;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+ 
+}
+#bugged{
+    margin-top: 4px;
+}
+#titlelang{
+  
+    padding-top: 10px;
+  
+}
+
+#desktop-nav {
+
+    
+}
+.menu li{
+    float: left;
+    padding-left: 0px;
+  
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    
+    margin-left: 0px;
+    padding: 20px;
+    height: 10%;
+}
+.menu li ul li{
+    background: #fff;
+    float: none;
+    text-align: left;
+    padding-left: 20px;
+    padding: 5px;
+    
+    margin: 0;
+    clear: both;
+    width: 200px;
+}
+.menu li ul li:hover{
+    background: #F4F6F9;
+}
+.menu li ul li a{
+    position: relative;
+    left: 15px;
+    color: #333;
+}
+.menu li ul li a:hover{
 color: #00aeef;
 }
-ul.Spisoks ul li a{
-  font-weight: 300;
-  color: #3E3E3E;
-  text-decoration: none;
-  font-size: .95em;
+.wtfuis{
+ position: absolute;
+ margin-right: 50px;
 }
-ul.Spisoks ul li a:hover{
-  color: #00aeef;
-   text-decoration: underline;
+#ules_0{
 
 }
-.afterspisok{
-  height: 60px;
+.menu a{
+    font-size: 14px;
+    color: #333;
 }
-#why{
-  padding: 0;
-  width: 125px;
+.menu a:hover{
+    color: #00aeef;
+    text-decoration: underline;
+    cursor: pointer;
 }
-
-#part{
-  position: relative;
-  right: 20px;
-  width:180px;
-  height: 70px;
-  
+.wtfuis{
+    top: 65px;
+    left:0px;
 }
-
-.afterspisok ul li{
-  background: #fff;
-
-
-  width:180px;
-  height: 55px;
+.show_0,.show_1,.show_2 a{
+ 
 }
-
-#jan{
-  width: 90px;
+.Logins{
+   position: relative;
+   left: 860px;
+   top: 20px;
+   z-index: 0;
 }
-#what{
-  height: 70px;
-}
-#what ul li{
-  height: 70px;
-
-}
-#bro1{
-  padding-right: 10px;
-  background: #fff;
-}
-#bro2{
-
-}
-#lists{
-  position: relative;
-  bottom: 52px;
-}
-.Limon{
-  border-top:#F4F6F9 solid 1px;
+.Logins li{
+    margin-left: 3px;
+    display: inline;
 }
 
-
-#starter{
-  position: relative;
-  left: 717px;
-  top: 50px
+.gradient {
+    padding: 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, #00d4c3, #9327f5);
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-size: 200% auto;
 }
-ul#starter li {
-  list-style-type: none;
-  display: inline;
-  padding-right: 10px; 
-
+.uper{
+ 
 }
-
-#getstart{
-  
-  border-radius: 5px;
-
-  padding-bottom: 33px;
-  background: #00aeef;
+.gradient a{
+    
+ 
+    color: #fff;
 }
-
-#getstart a
-{
-  position: relative;
-  top: 15px;
-  left: 40px;
-  padding-right: 75px;
-  font-weight: 300px;
-  text-decoration: none;
-  color:#fff;
+.lnks{
+    font-size: 14px;
+    color: #333;
 }
-#getstart a::after{
-
-}
-
-
-#logintext a{
-  position: relative;
-  top: 15px;
-  right: 5px;
-  font-size: 14px;
-  color: #3E3E3E;
-  text-decoration: none;
-}
-
-
-
-
-#logintext a:hover{
-  color:#00aeef;
-}
-
-
-
-
-#bro2 img:hover{
-  filter: sepia(1);
-}
-
-ul#mylogos{
-  display: flex;
-  margin: 0;
-  padding: 0;
-  height: 35px;
-}
-ul#mylogos img{
-max-height: 30px;
-
-}
-ul#mylogos li{
-  position: relative;
-
-  padding-left:10px;
-  list-style: none;
-}
-ul#logos li a{}
-
-#lang{
-  margin-left: 1540px;
-  width: 100px;
-  text-align: center;
-  padding-top: 7px;
-  background: #E5E9F2;
-}
-#lang a{
-  margin-left: 3px;
-  font-size: .6em;
-  border: none;
-  color: #302d2e;
-  background: none;
-  border: none;
-  text-decoration: none;
-  width: 9vw;
-  max-width: 115px;
-  background: #E5E9F2;
-  font-weight: bold;
-}
-.logsContainer{
-  background: #F4F6F9;
-}
-#adroll{
-  background: #fff
-}
-
-
-#RollWorks:hover{
-  filter: sepia(1);
+.lnks:hover{
+color: #00d4c3;
 }

@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <meta
       name="viewport"
@@ -32,4 +34,29 @@
 
     
   </body>
+  <script type="text/javascript">
+ var imgs = ['../img/rich-sunski.png','../img/adam-teepublic.png','../img/hannah-boomf.png'];
+var text = ['Посещаемость по дням','<a href="script.php">Посещаемость по неделям</a>',
+'<font color="red">Посещаемость по месяцам</font>','<b>Среднесуточная</b>'];
+var n=0;
+var next="";
+$(document).ready(function(){go=setInterval("chgImg(0)", 3000);});
+
+function chgImg(number) {
+ if (number!=0) {
+     clearInterval(go);
+     $('[id^=slide_show], [id^=slide_text]').stop();
+     n=number-2;
+     go=setInterval("chgImg(0)", 3000);
+ }
+ n++;
+ if (n>=imgs.length) n=0;
+ if (next=="") next=2;
+ else next="";
+
+ $('#slide_show'+next).attr('src',imgs[n]);
+ $('#slide_text'+next).html(text[n]);
+ $('[id^=slide_show], [id^=slide_text]').fadeToggle(2000);
+}
+</script>
 </html>

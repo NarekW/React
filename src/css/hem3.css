@@ -1,213 +1,111 @@
-#home3{
+#ContainerMemes{
     position: relative;
-    top: 40px;
-    
-   
+    top:106px;
+    background: red;
+    height: 500px;
+    background: #00aeef;
+    background: -webkit-linear-gradient(top left, #9327f5 0%, #ff1453 100%);
+    background: -o-linear-gradient(top left, #9327f5 0%, #ff1453 100%);
+    background: linear-gradient(to bottom right, #9327f5 0%, #ff1453 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$purple', endColorstr='$red',GradientType=1 );
+    color: #fff;
 }
-.koko4 img{
-    margin-left: 500px;
+.nero{
+    display: none;
 }
-#home3 img{max-height: 800px;}
-
-.koko img{
-    margin-left: 690px;
-    max-height: 800px;
-    
-}
-.koko2 img{
-    height: 600px;
-    width: 2000px;
-}
-.koko3 img{
-    height: 400px;
-    margin-left: 400px;
-}
-.koko4 img{
-   
-   margin-left: 600px;
-}
-
-.koko4{
-   height: 550px;
-}
-
-#mybottom a{
-   position: relative;
-   left: 30px;
-   font-weight: bold;
-   }
- 
-   #mybottom{
-   
-   position: relative;
-   top:315px;
-   left: 847px;
-   width:175px;
-   padding: 15px;
-   border-radius: 4px;
-   }
-.hr {
-    float:left;
+.col_8{
+    margin-left: 300px;
     position: relative;
-    padding-right: 50px;
-    list-style-type: none;
-    display: block;
-    margin: 0; /* Обнуляем значение отступов */
-    
-    padding: 0px; /* Значение полей */
-    width: 190px;
-   }
-   .social .fab{
-      position: relative;
-      width: 20px;
-      margin-left: 10px;
-      text-decoration: none;
-      color: #3E3E3E;
-      font-size: 20px;
-      margin-bottom: 10px;
-   }
-   .fotterContainer{
-      position: relative;
-      margin-top: 50px;
-      margin-left: 400px;
-      height: 300px;
-      width:1500px ;
-   }
-
-   #foother-sub{
-      position: relative;
-      top: 270px;
-   }
-
-   .hr li {
-    flex-grow: 1;
-    display: list-item;
-    text-align: -webkit-match-parent;
-    margin-right: 5px; /* Отступ слева */
-    
-    padding: 3px; /* Поля вокруг текста */
-   }
-
- .hr ul{
-    margin-left: 0; /* Отступ слева в браузере IE и Opera */
-    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
-    margin-top: 10px;
-  
- }
-
- ul.hr ul li{
-    list-style-type: none; /* Убираем маркеры */
- }
-
- .after .aflink{
-   color: #3E3E3E;
-   font-weight: bold;
-   font-size: .95em;
-   border-bottom: 1px solid transparent;
- }
- ul.hr ul li a{
-    font-weight: 300;
-    color: #3E3E3E;
-    text-decoration: none;
-    font-size: 13px;
- }
- ul.hr ul li a:hover{
-     text-decoration: underline;
-
- }
-#com{
-   position: relative;
-   top: 200px;
+    top: 100px;
 }
-#com ul{
-
-   list-style-type: none;
-  
-   position: absolute;
-   padding: 0;
-   margin: 0;
-}
-#com ul li{
-   padding-left: 35px;
-   display: inline;
-
-   width:300px;
-   position: relative;
-}
-#com ul img{
-   max-height: 150px;
-   max-width: 150px;
-}
-.dsa{
-   font-size: .75em;
-    color: #3E3E3E;
-    font-weight: bold;
-    border-bottom: 1px solid transparent;
-}
-a{
-   color:#00aeef;
-}
-#end{
-   display: block;
-   position: relative;
-   left: 340px;
-    margin-top: .75em;
-    margin-bottom: 0;
-    font-size: .65em;
-    color: #3E3E3E;
-}
-#ayo{
-   position: relative;
-   top: 50px;
-}
-
-
-.hes{
-   font-family: "Lora",serif;
+h1, h2, h3 {
+    font-family: "Lora",serif;
     margin: 0 0 .5em;
     font-weight: 700;
-    font-size: 1.4rem;
-    line-height: 2.15rem;
 }
-#texto a{
-   position: relative;
-
+h1 {
+    margin-top: 0;
+    font-size: 2.375rem;
+    line-height: 3.25rem;
+}
+.animate {
+    text-align: center;
+    transition: all .5s ease-out;
+    display: block;
+    text-transform: uppercase;
+    
+    border-radius: 5px;
+    display: block;
+    border: 3px solid #fff;
+    width: 150px;
+    height: 45px;
+    background: linear-gradient(45deg, #e9fb75, #b3f8a7, #57F5F7, transparent, 50%, transparent 100%);
+    background-size: 428% 100%;
    
-   display: inline-block;
-   text-align: center;
- 
-  
-}
-#kek4{
-
-
-   position: relative;
-   left: 500px;
-}
-#kek1{
- 
-   position: relative;
-   left: 1050px;
-   bottom: 265px;
-}
-#kek2{
-  
-   position: relative;
-   left: 1600px;
-   bottom: 530px;
-}
-#texto{
    
-   position: relative;
-   width: 500px;
-   overflow: hidden;
-   left: 750px;
-   
-  
-   bottom: 380px;
 }
-#texto span{
-   position: relative;
- 
+.animate a{
+    color:#fff;
+    position: relative;
+    top: 10px;
+}
+.col_9 img{
+    
+    position: absolute;
+    vertical-align: bottom;
+    width: 100%;
+    max-width: 425px;
+    margin: 0;
+    left: 830px;
+    bottom: 0px;
+    z-index: 4;
+}
+.info{
+    position: relative;
+    margin-left: 1150px;
+    bottom: 160px;
+}
+#titlos{
+    margin-bottom: 0px;
+}
+#fale{
+    margin-top: 0px;
+}
+.secondary-cta{
+    opacity: .6;
+    text-transform: uppercase;
+    font-size: 11px;
+}
 
+.info p {
+    margin-bottom: 10px;
+    line-height: 13px;
+}
+.case-study {
+    margin-bottom: 10px;
+}
+.col_8{
+ 
+    margin-left: 420px;
+}
+p {
+    margin: 0 0 1.3em;
+    font-size: 1rem;
+}
+.mybt{
+    background-image: url("../img/ric-close.png");
+    background-repeat: no-repeat;
+    background-color:none;
+    position: relative;
+    top: 50px;
+    margin-left: 500px;
+    background-size: 100% 100%;
+    border-radius: 0;
+ 
+    display: inline-block;
+    z-index: 11;
+}
+#buttos{
+    z-index: 99999999;
+    margin-left: 250px;
 }

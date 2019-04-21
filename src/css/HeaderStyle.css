@@ -9,6 +9,9 @@ header{
     position: fixed;
     top: 0px;
     z-index: 999;
+    height: 116px;
+    background: #fff;
+    border-bottom: #F4F6F9 solid 1px;
 }
 #site-switcher .nav-logo ul li a img {
     max-height: 15px;
@@ -45,7 +48,8 @@ ul, ol {
 #offrolworks{
     background: #F4F6F9;
     position: relative;
-    bottom: 86px;
+    bottom: 89px;
+    height: 43px;
     width: 2000px;
     margin-left: 120px;
    
@@ -54,7 +58,7 @@ ul, ol {
 #onrollworks{
    background: #F4F6F9;
    position: absolute;
-   bottom: 65px;
+   bottom: 76px;
    margin-left: 120px;
    
  
@@ -71,7 +75,7 @@ ul, ol {
 #lang{
     position: relative;
     bottom: 127px;
-    left: 1600px;
+    left: 1765px;
     border: 1px solid none;
 
     
@@ -93,7 +97,7 @@ ul, ol {
 }
 #flags{
    height: 270px;
-   width: 110px;
+   width: 115px;
    z-index: 9999;
 }
 #flags li a{
@@ -113,7 +117,7 @@ ul, ol {
 }
 #titlelang{
   
-    padding-top: 10px;
+    padding-top: 8px;
   
 }
 
@@ -147,6 +151,12 @@ ul, ol {
 .menu li ul li:hover{
     background: #F4F6F9;
 }
+.menu li ul li{
+
+   position: relative;
+   padding: 10px;
+   top: 6px;
+}
 .menu li ul li a{
     position: relative;
     left: 15px;
@@ -161,6 +171,11 @@ color: #00aeef;
 }
 #ules_0{
 
+}
+.menu li{
+    
+    position: relative;
+    top: 5px;
 }
 .menu a{
     font-size: 14px;
@@ -180,17 +195,19 @@ color: #00aeef;
 }
 .Logins{
    position: relative;
-   left: 860px;
-   top: 20px;
+   left: 955px;
+   top: 25px;
    z-index: 0;
 }
 .Logins li{
-    margin-left: 3px;
+    margin-left: 23px;
     display: inline;
 }
 
 .gradient {
-    padding: 15px;
+    padding-top: 21px;
+    padding-bottom: 15px;
+    padding-right: 38px;
     border-radius: 5px;
     background-image: linear-gradient(45deg, #00d4c3, #9327f5);
     color: #fff;
@@ -205,13 +222,27 @@ color: #00aeef;
 }
 .gradient a{
     
- 
+    padding-left: 20px;
+    position: relative;
+    left: 8px;
     color: #fff;
+    bottom: 3px;
+    font-size: 13px;
+    box-sizing: initial;
+    letter-spacing: 2px;
 }
 .lnks{
+display: block;
+   
     font-size: 14px;
-    color: #333;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1.65em;
+    color: #3C4858;
 }
 .lnks:hover{
 color: #00d4c3;
+}
+.wtfuis li{
+
 }

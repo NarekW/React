@@ -1,0 +1,22 @@
+.nkar4{
+   
+    margin: 0;
+    height: 500px;
+    margin-bottom: 50px;
+    background: #00aeef;
+    background: -webkit-linear-gradient(top left, #9327f5 0%, #ff1453 100%);
+    background: -o-linear-gradient(top left, #9327f5 0%, #ff1453 100%);
+    background: linear-gradient(to bottom right, #9327f5 0%, #ff1453 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$purple', endColorstr='$red',GradientType=1 );
+    color: #fff;
+
+}
+#imgter {
+    width: 100%;
+    max-width: 580px;
+    position: relative;
+    vertical-align: bottom;
+    z-index: 7;
+    right: 550px;
+    top: 50px;
+}

@@ -21,7 +21,7 @@ class Hem3 extends React.Component {
     onMouseEnter() 
     {        
             this.setState({
-              
+            border:'none',
             background: 'linear-gradient(45deg, #e9fb75, #b3f8a7, #57F5F7, transparent, 50%, transparent 100%)',
             backgroundPosition: 'right bottom',
             backgroundSize: '100% 1400%',
@@ -50,7 +50,7 @@ class Hem3 extends React.Component {
       }
     render() {
         return(
-            <section>
+            <section id='homepage'>
             <div id='ContainerMemes'>
             <div class="col_8 wrapper-tall-hero">
             <h1>Grow your business.<br/>Boost your sales.</h1>
@@ -61,8 +61,8 @@ class Hem3 extends React.Component {
             </div>
             <div class='col_9'>
             <div id='buttos'>
-            <button class='mybt'><i class="fas fa-angle-left"></i></button>
-            <button class='mybt'><i class="fas fa-angle-left"></i></button>
+            <button class='mybt' aria-label="Previous" type="button"><i class="fas fa-angle-left"></i></button>
+            <button class='mybt' aria-label="Previous" type="button"><i class="fas fa-angle-left"></i></button>
             </div>
             <div class="info">
             <h4 id='titlos' >Rich Krolikowski</h4>
@@ -72,8 +72,11 @@ class Hem3 extends React.Component {
           </div>
             <div id='heroes container'>
            
+               
+               
+                <img src={Hannah}id="slide_show0"/>
                 <img src={Richi} id="slide_show1" />
-                <img src={Adam} id="slide_show2" class='nero'/> 
+                <img src={Adam} id="slide_show3" class='nero'/> 
                 
             </div>
                 

@@ -1,0 +1,41 @@
+#heraxos{
+    max-height: 600px;
+
+}
+.heraxodivs{
+    
+    background: none;
+    position: absolute;
+    margin-left: 470px;
+    
+}
+.containeros-wraper{
+    position: relative;
+    bottom: 60px;
+    left: 200px;
+}
+.note {
+   
+}
+.hr2{
+  
+      
+        width: 150px;
+        height: 2px;
+        position: relative;
+        right: 790px;
+        
+   
+        background: linear-gradient(to right, #13beca, #4287da, #7847ec);
+        border: none;
+    
+}
+.uran{
+    position: relative;
+    left: 900px;
+    top: 140px;
+}
+.containeros-wraper{
+  height: 550px;
+    background: none;
+}

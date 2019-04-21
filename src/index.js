@@ -4,17 +4,25 @@ import './css/index.css';
 import Header from './Moduls/Header.js';
 import Main from './Moduls/Main.js';
 import SelTwo from './Moduls/HomepageTwo.js'
-import Hem3 from './Moduls/Homepage3.js'
+import Hem3 from './Moduls/Homepage3.js';
+import Chorord from './Moduls/Chorord.js';
+import Hing from './Moduls/Hingerord.js';
+import Vecer from './Moduls/Vecerord.js';
+import MegaDiv from './Moduls/MegaDiv.js';
+import Foter from './Moduls/footer.js';
+import GetBotton from './Moduls/GetBotton.js';
 /**********************IMAGES******** */
 ///////////////////////////////////////////
 import * as serviceWorker from './serviceWorker';
+
 import { setTimeout } from 'timers';
 
-
-
-
-
-
+ReactDOM.render(<Foter />,document.querySelector('#Foter'));
+ReactDOM.render(<GetBotton />,document.querySelector('#GetBotton'));
+ReactDOM.render(<Vecer />,document.querySelector('#Vec'));
+ReactDOM.render(<MegaDiv />,document.querySelector('#MegaDiv'));
+ReactDOM.render(<Chorord />,document.querySelector('#Chorord'));
+ReactDOM.render(<Hing />,document.querySelector('#Hing'));
 ReactDOM.render(<Hem3 />,document.querySelector('#home3'));
 ReactDOM.render(<SelTwo />,document.querySelector('#narek'));
 ReactDOM.render(<Header />,document.querySelector('#root'));

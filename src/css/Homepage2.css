@@ -1,13 +1,29 @@
 .homepage{
-    margin-top: 180px;
+    margin-top: 189px;
     height: 200px;
     background: #fff;
     position: absolute;
-    margin-left: 507px;
+    margin-left: 464px;
    
 
 }
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p {
+    margin: 0 0 1.3em;
+    font-size: 1rem;
+}
+body {
+
+    font-family: "Open Sans",sans-serif;
+}
 .homepage h3{
+    font-family: "Open Sans",sans-serif;
     text-align: center;
 }
 hr.gradient-teal-purple {
@@ -47,7 +63,7 @@ hr{
 }
 #DTG-landing a{
     background: #fff;
-   margin-left: 70px;
+   margin-left: 100px;
 
     padding: 0;
     float:left;

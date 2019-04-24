@@ -18,6 +18,12 @@ header{
     width: auto;
    
 }
+#flags img{
+    background: red;
+    width: 12px;
+    height: 8px;
+ 
+}
 #site-switcher .nav-logo ul li a {
     display: table-cell;
     vertical-align: middle;
@@ -31,6 +37,9 @@ header{
 a{
     color: #00aeef;
     text-decoration: none;
+    transition: all 0ms ease-in-out;
+}
+#logs a{
     transition: all 150ms ease-in-out;
 }
 a {
@@ -117,7 +126,7 @@ ul, ol {
 }
 #titlelang{
   
-    padding-top: 8px;
+    padding-top: 5px;
   
 }
 

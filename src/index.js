@@ -49,17 +49,17 @@ AdrollLogoOff.addEventListener('mouseover', function(){
 });
 /********************************************** */
 var LanguagesLis = document.querySelector('#langul');
-LanguagesLis.style.display='none';
+LanguagesLis.style.visibility = "hidden"
 
 var UlLangs = document.querySelector('#titlelang');
 
 UlLangs.addEventListener('mouseover',function(){
-    LanguagesLis.style.display='block';
+    LanguagesLis.style.visibility = "visible"
 });
 
 var flagsUL = document.querySelector('#flags');
 flagsUL.addEventListener('mouseout', function(){
-    LanguagesLis.style.display='none';
+    LanguagesLis.style.visibility = "hidden"
 })
 /*************************/
 /***************************** */

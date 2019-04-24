@@ -62,7 +62,7 @@ class Hem3 extends React.Component {
             <div class='col_9'>
             <div id='buttos'>
             <button class='mybt' aria-label="Previous" type="button"><i class="fas fa-angle-left"></i></button>
-            <button class='mybt' aria-label="Previous" type="button"><i class="fas fa-angle-left"></i></button>
+            <button class='mybt' aria-label="Previous" type="button"><i class="fas fa-angle-right"></i></button>
             </div>
             <div class="info">
             <h4 id='titlos' >Rich Krolikowski</h4>

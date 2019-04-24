@@ -1,6 +1,7 @@
 #getbutdiv{
-    height: 390px;
+    height: 380px;
     text-align: center;
+    background: url('https://www.adroll.com/assets/vectors/homepage/bg-shape-abstract.svg') no-repeat;
     background: #9327f5;
     background: -webkit-linear-gradient(30deg, #9327f5 30%, #00aeef 100%);
     background: -o-linear-gradient(30deg, #9327f5 30%, #00aeef 100%);

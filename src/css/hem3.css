@@ -111,16 +111,18 @@ p {
 }
 .mybt{
     
-    background-image: url("../img/ric-close.png");
+
     background-repeat: no-repeat;
-    background-color:none;
+    background-color:#D21C97;
     position: relative;
+    border: none;
+    
     top: 300px;
     margin-left: 500px;
-
+   
     background-size: 100% 100%;
     border-radius: 0;
-    color:blue; cursor:pointer; text-decoration:underline; 
+    color:#fff; cursor:pointer; text-decoration:underline; 
     display: inline-block;
     z-index: 11;
 }

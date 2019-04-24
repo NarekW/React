@@ -110,12 +110,12 @@ class Header extends React.Component{
                       </li>
                       <li>
                       <a href='#'>
-                      Attract more website <br/>visitors
+                      Сonvert visitors intro<br/>customers
                       </a>
                       </li>
                       <li>
                       <a href='#'>
-                      Attract more website <br/>visitors
+                     Measure marketing <br/>impact
                       </a>
                       </li>
 
@@ -126,46 +126,47 @@ class Header extends React.Component{
               <ul class='wtfuis' id='ules_1'>
                       <li>
                       <a href='#'>
-                      Attract more website <br/>visitors
+                      Agencies
                       </a>
                       </li>
                       <li>
                       <a href='#'>
-                      Attract more website visitors
+                      Integrations
                       </a>
                       </li>
                       <li>
                       <a href='#'>
-                      Attract more website visitors
+                      Platform as a Service
                       </a>
                       </li>
-                      <li>
-                      <a href='#'>
-                      Attract more website visitors
-                      </a>
-                      </li>
+
                     </ul>
               </li>
               <li class='show_2'><a class='lnks' href='#'>Lean More<i class="fas fa-angle-down"></i></a>
               <ul class='wtfuis' id='ules_2'>
                       <li>
                       <a href='#'>
-                      Attract more website visitors
+                      Customer Stories
                       </a>
                       </li>
                       <li>
                       <a href='#'>
-                      Attract more website visitors
+                      Resources
                       </a>
                       </li>
                       <li>
                       <a href='#'>
-                      Attract more website visitors
+                      AdRoll Blog
                       </a>
                       </li>
                       <li>
-                                              <a href='#'>
-                      Attract more website visitors
+                      <a href='#'>
+                      Developer API
+                      </a>
+                      </li>
+                      <li>
+                      <a href='#'>
+                      Help Center
                       </a>
                       </li>
                     </ul>

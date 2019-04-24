@@ -12,6 +12,20 @@ background: linear-gradient(to bottom right, #9327f5 0%, #00d4c3 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$purple', endColorstr='$teal',GradientType=1 );
 color: #fff;
 }
+@keyframes vertical-scroll {
+    
+    100% { 
+      transform: translateY(66.6666%);  
+    }
+}
+.homepage-2 .logos-scrolling {
+   animation: vertical-scroll 12s linear infinite;
+}
+marquee{
+    background: red;
+    height: 500px;
+    position: absolute;
+}
 hr.white-on-left {
     display: block;
     background: #fff;

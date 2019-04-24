@@ -66,59 +66,52 @@ class Foter extends React.Component{
                 <a class='lenks'>Why Adroll</a>
                 <ul>
                 <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
+                <li><a href="/why-adroll">API</a></li>
+                <li><a href="/why-adroll">Whats New</a></li>
+                <li><a href="/why-adroll">Pricing</a></li>
+
                 </ul>
                 </li>
 
                 <li class='footer-block'>
-                <a class='lenks'>Why Adroll</a>
+                <a class='lenks'>What you can do</a>
                 <ul>
                 <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
+                <li><a href="/why-adroll">Attract more website visitors</a></li>
+                <li><a href="/why-adroll">Convert visitors intro customers</a></li>
+                <li><a href="/why-adroll">Measure marketing impact</a></li>
+
                 </ul>
                 </li>
 
                 <li class='footer-block'>
-                <a  href="/why-adroll" class='lenks'>Why Adroll</a>
+                <a  href="/why-adroll" class='lenks'>Partners</a>
                 <ul>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
+                <li><a href="/why-adroll">Agencies</a></li>
+                <li><a href="/why-adroll">Intergrations</a></li>
+                <li><a href="/why-adroll">Platform as a Service</a></li>
                 </ul>
                 </li>
 
                 <li class='footer-block'>
-                <a>Why Adroll</a>
+                <a>Lean More</a>
                 <ul>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
+                <li><a href="/why-adroll">AdRoll Blog</a></li>
+                <li><a href="/why-adroll">Resources</a></li>
+                <li><a href="/why-adroll">Help Center</a></li>
+  
                 </ul>
                 </li>
  
                 <li class='footer-block'>
-                <a>Why Adroll</a>
+                <a>Company</a>
                 <ul>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
-                <li><a href="/why-adroll">Overview</a></li>
+                <li><a href="/why-adroll">About</a></li>
+                <li><a href="/why-adroll">Events</a></li>
+                <li><a href="/why-adroll">New</a></li>
+                <li><a href="/why-adroll">Careers</a></li>
+                <li><a href="/why-adroll">AdRoll Group Engineering</a></li>
+               
                 </ul>
                 </li>
 
@@ -153,11 +146,11 @@ class Foter extends React.Component{
                <li>
                    <ul id='ender'>
                    <li><a href="https://www.adrollgroup.com/careers" target="_blank">Careers</a></li>
-                   <li><a href="https://www.adrollgroup.com/careers" target="_blank">Careers</a></li>
-                   <li><a href="https://www.adrollgroup.com/careers" target="_blank">Careers</a></li>
-                   <li><a href="https://www.adrollgroup.com/careers" target="_blank">Careers</a></li>
-                   <li><a href="https://www.adrollgroup.com/careers" target="_blank">Careers</a></li>
-                   <li><a href="https://www.adrollgroup.com/careers" target="_blank">Careers</a></li>
+                   <li><a href="https://www.adrollgroup.com/careers" target="_blank">Trust Center</a></li>
+                   <li><a href="https://www.adrollgroup.com/careers" target="_blank">Terms of Service</a></li>
+                   <li><a href="https://www.adrollgroup.com/careers" target="_blank">Privacy Notice</a></li>
+                   <li><a href="https://www.adrollgroup.com/careers" target="_blank">Infringement Policy</a></li>
+                   <li><a href="https://www.adrollgroup.com/careers" target="_blank">Adjust Ad Preferences</a></li>
                 </ul>
                    
                 </li>

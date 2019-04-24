@@ -1,3 +1,15 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.footer-block ul li a{
+    color: #3C4858;
+    font-weight: 300;
+    font-size: .75em;
+    border-bottom: 1px solid transparent;
+    
+}
 footer #footer-nav #footer-nav-bottom ul li ul li {
     text-transform: none;
     font-size: .195em;
@@ -32,9 +44,7 @@ footer #footer-nav #footer-nav-bottom ul li {
 
 }
 .footer-flex-container li ul li a{
-color:#333;
-font-weight: 300;
-font-size: .95em;
+
 } 
 .footer-flex-container li a{ 
     color: #3C4858;
@@ -45,7 +55,7 @@ font-size: .95em;
 }
 .footer-social{
     position: relative;
-    margin-left: 700px;
+    margin-left: 950px;
     bottom: 150px;
     width: 150px;
     background: none;
@@ -57,9 +67,10 @@ font-size: .95em;
 .footer-social a{
     color: #333;
 }
+
 #ender li{
     display: inline;
-    padding-left: 50px;
+    padding-left: 25px;
     margin: 0;
 }
 #groupimg{
@@ -68,7 +79,7 @@ font-size: .95em;
     top: 30px;
 }
 .footer-nav{
-    margin-left: 450px;
+    margin-left: 420px;
    position: relative;
    bottom: 50px;
 
@@ -80,7 +91,7 @@ footer #footer-sub p {
     font-size: .65em;
     color: #3C4858;
     position: relative;
-    right: 185px;
+    right: 0px;
 }
 #ender li a{
     color: #3C4858;
@@ -89,8 +100,17 @@ footer #footer-sub p {
     border-bottom: 1px solid transparent;
 }
 #ender li a:hover{
+    cursor: pointer;
     border-bottom: solid 1px black;
 }
 .footer-flex-container li a:hover{
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+.footer-flex-container{
+   
+}
+.footer-social a:hover{
+    cursor: pointer;
     border-bottom: solid 1px black;
 }

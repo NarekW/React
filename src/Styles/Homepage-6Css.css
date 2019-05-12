@@ -1,0 +1,30 @@
+.Homepge-6{
+    position: absolute;
+    top: 2650px;
+    width: 100%;
+    height: 497px;
+ 
+    background: linear-gradient(to bottom right, #9327f5 0%, #ff1453 100%);
+    
+}
+.text3{
+    color: #fff;
+}
+.wrapper-tall-top{
+    position: absolute;
+   
+    bottom: 80px;
+  
+}
+#clone_8 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 850px;
+}
+.col_8 img{
+    width: 100%;
+    max-width: 580px;
+    position: relative;
+    vertical-align: bottom;
+    z-index: 7;
+}

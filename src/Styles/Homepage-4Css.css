@@ -1,0 +1,101 @@
+.homepage-2 {
+    position: absolute;
+    text-align: left;
+    overflow: hidden;
+height: 640px;
+width: 100%;
+margin-top: 1350px;
+
+background: #9327f5;
+background: -webkit-linear-gradient(top left, #9327f5 0%, #00d4c3 100%);
+background: -o-linear-gradient(top left, #9327f5 0%, #00d4c3 100%);
+background: linear-gradient(to bottom right, #9327f5 0%, #00d4c3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$purple', endColorstr='$teal',GradientType=1 );
+color: #fff;
+}
+@keyframes vertical-scroll {
+    
+    100% { 
+      transform: translateY(50%);  
+    }
+}
+.homepage-2 .logos-scrolling {
+
+   animation: vertical-scroll 12s linear infinite;
+}
+
+hr.white-on-left {
+    display: block;
+    background: #fff;
+    border: none;
+    width: 150px;
+    height: 2px;
+    margin: 2.5em 0;
+}
+.logos-scrolling{
+    position: relative;
+    bottom: 625px;
+}
+#textso{
+    font-family: "Open-Seans-Links";
+    margin: 0 0 1.3em;
+}
+footer ul li i {
+    font-size: 1.45em;
+    color: #3C4858;
+}
+.logos-Shadow{
+    
+}
+.wrapper-tall-top{
+    background: none;
+    position: absolute;
+    margin-left: 470px;
+    margin-top:180px ;
+}
+.logos-container{
+    background: none;
+    clear: both;
+
+    width: 600PX;
+    position: relative;
+    left: 920px;
+    
+   
+}
+.homepage-2 .logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.homepage-2 .logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+    width: 150px;
+    height: 60px;
+    margin: 10px;
+    padding: 5px;
+
+}
+.homepage-2 .logos-container {
+ 
+    min-width: 270px;
+    text-align: left;
+    position: relative;
+    top: 0px;
+    ;
+}
+.container-Text-Title{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 470px;
+}
+.logos-shadow{
+   
+    position: absolute;
+}
+.container-Text-Title h3{
+
+    color: #fff;
+}

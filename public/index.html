@@ -1,81 +1,32 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-    </script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <title>React App</title>
   </head>
+  
   <body>
-    
-      <header>
-      <div id="root"></div>
-      </header>
-
-
-        <div id='home3'>
-          </div>
-          <div id='narek'>
-              </div>
-
-            </div>
-            <div id="main">
-              </div>
-              <div id="Chorord">
-                </div>
-                <div id="Hing">
-                  </div>
-                  <div id="Vec">
-                    </div>
-                    <div id="MegaDiv">
-                      </div>
-                      <div id="GetBotton">
-                        </div>
-                        <div id="Foter">
-                          </div>
-
-
-
-    
+    <header>
+      <div id="Header-Container"></div>
+    </header>
+    <div id='main'>
+      <div class="Homepge-2"></div>
+      <div class="Homepge-3"></div>
+      <div class="Homepge-4"></div>
+      <div class="Homepge-5"></div>
+      <div class="Homepge-6"></div>
+      <div class="Homepge-7"></div>
+      <div class="Homepge-8"></div>
+      <div class="Homepge-9"></div>
+      <div class="footerblock"></div>
+      
+      <div>
+    </div>
+    <div>
   </body>
-
-
-<script type="text/javascript">
-
-var imgs = ['./img/rich-sunski.png','./img/adam-teepublic.png','./img/hannah-boomf.png','./img/hannah-boomf.png','./img/hannah-boomf.png'];
- var text = ['Посещаемость по дням','<a href="script.php">Посещаемость по неделям</a>',
-'<font color="red">Посещаемость по месяцам</font>','<b>Среднесуточная</b>'];
-var n=0;
-var next="";
-$(document).ready(function(){go=setInterval("chgImg(0)", 3000);});
-
-function chgImg(number) {
- if (number!=0) {
-     clearInterval(go);
-     $('[id^=slide_show], [id^=slide_text]').stop();
-     n=number-2;
-     go=setInterval("chgImg(0)", 3000);
- }
- n++;
- if (n>=imgs.length) n=0;
- if (next=="") next=2;
- else next="";
-
- $('#slide_show'+next).attr('src',imgs[n]);
- $('#slide_text'+next).html(text[n]);
- $('[id^=slide_show], [id^=slide_text]').fadeToggle(2000);
-}
-</script>
 </html>

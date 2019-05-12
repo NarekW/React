@@ -1,0 +1,22 @@
+.Homepge-9{
+    position: absolute;
+    margin-top: 4214px;
+    background: #9327f5;
+    background: -webkit-linear-gradient(30deg, #9327f5 30%, #00aeef 100%);
+    margin-bottom: 100px;
+    height: 380px;
+    width: 100%;
+}
+.abstract-lines{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 130px;
+}
+.t1{
+    color: #fff;
+}
+#end_button{
+position: relative;
+top: 15px;
+left: 140px;
+}

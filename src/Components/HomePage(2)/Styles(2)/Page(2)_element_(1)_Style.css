@@ -1,0 +1,93 @@
+.Homepge-2-pageTwo{
+    width: 100%;
+    margin-top: 100px;
+    z-index: 0;
+  
+    position: absolute;
+}
+.Homepge-2-pageTwo img{
+    margin-left: 950px;
+    margin-top: -230px;
+    max-width: 26%;
+    
+   
+}
+.Homepge-2-pageTwo .bkgd-purple-red-gradient{
+    z-index: 0;
+    position: relative;
+   overflow: hidden; 
+    height: 450px;
+    background: #08D6ED;
+   
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$purple', endColorstr='$red',GradientType=1 );
+    color: #333;
+
+}
+.cta.fill-white {
+    background: #fff;
+    color: #05D280;
+    width: 220px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+}
+.row-table{
+    width: 470px;
+    margin-top: 18px;
+    position: relative;
+    top: 73px;
+    margin-left: 471px;
+    z-index: 0 !important;
+}
+
+.row-table p {
+    margin: 0 0 1.3em;
+    line-height: 1.667;
+  
+    font-size: 1rem;
+    
+}
+
+
+p.secondary-cta{
+
+    position: relative;
+    font-weight: bold;
+    bottom: 3px;
+    letter-spacing: 1px;
+    opacity: .6;text-transform: uppercase;font-size:12px;
+ 
+}
+h4 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+
+    font-weight: 700;
+    margin: 0 0 .75em;
+}
+
+.info {
+    outline: none;
+    position: absolute;
+    z-index: 90;
+    width: 180px;
+    margin-left: 325px;
+    margin-top: 58px;
+    top: 0;
+}
+.family{
+    margin-top: -8px;
+    margin-bottom: -10px;
+}
+.opisanie{
+    font-family: "Open-Seans-Links";
+    color: #fff;
+    font-size: 1em;
+    line-height: 18px;
+}
+.info h4{
+    margin-bottom: 5px;
+}
+@font-face {
+    font-family: 'Lora-Bolid';
+    src: url('../fonts(2)/Lora/Lora-Bold.ttf');
+  }

@@ -1,0 +1,72 @@
+.Homepge-8{
+    text-align: center;
+
+}
+.Homepge-8 .slick-slider{
+   position: absolute;
+    margin: 0;
+    bottom: 55px;
+    margin-left: 60px;
+}
+
+.text-center {
+    text-align: center;
+}
+.quote-author h3, .quote-author h4, .quote-author h6, .quote-author p {
+    margin-bottom: 0 !important;
+}
+.quote-author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+   
+}
+.Homepge-8 p{
+    margin-top: 0 !important;
+}
+.Homepge-8 *{
+    color: black;
+}
+.Homepge-8 .slick-dots{
+    position: relative;
+    left: 250px;
+    top: 35px;
+    background: red;
+}
+.Homepge-8 .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+}
+.Homepge-8 .slick-dots li button {
+    border: 0;
+    background: transparent;
+    display: block;
+    float: left;
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+    outline: none;
+    line-height: 0px;
+    font-size: 0px;
+    color: transparent;
+    padding: 0px;
+    cursor: pointer;
+}
+.Homepge-8 .slick-dots li button:before {
+    position: relative;
+    top: 0;
+    left: 0;
+    content: "•";
+    width: 20px;
+    height: 20px;
+    font-family: "slick";
+    font-size: 40px;
+    line-height: 20px;
+    text-align: center;
+    color: #000;
+    opacity: .25;
+    -webkit-font-smoothing: antialiased;
+}
+

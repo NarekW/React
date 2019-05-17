@@ -1,0 +1,60 @@
+var customLabels = {
+  "Events": "Save My Spot",
+  "On-demand webinars": "Watch Now",
+  "Webinars": "Save My Spot",
+  "blog post": "View Post",
+  "case studies": "Learn More",
+  "guides & reports": "Read Guide",
+  "news articles": "Read More",
+  "video": "Watch Now"
+}
+
+function updateTileLabels(obj) {
+  if (obj !== undefined) {
+    var taggedTiles = Array.from(document.querySelectorAll('.tile')).filter((tile) =>
+     tile.dataset.tags !== undefined);
+    taggedTiles.forEach((tile) => {
+      var currentTile = tile;
+      var indexOfNotFound = -1;
+      Object.entries(obj).forEach(([key, value]) => {
+        if (currentTile.dataset.tags.indexOf(key) !== indexOfNotFound) {
+          // Changing the label text example
+          currentTile.querySelector('a.view').innerText = value;
+
+          // Adding a description label
+          var newParagraph = document.createElement('p');
+          newParagraph.classList.add('custom-tile-label');
+          var newParagraphText = document.createTextNode(key);
+          newParagraph.appendChild(newParagraphText);
+          var descriptionH3 = currentTile.querySelector('.description .h3like');
+          if (currentTile.querySelector('.custom-tile-label') === null) {
+            currentTile
+              .querySelector('.description')
+              .insertBefore(newParagraph, descriptionH3);
+          }
+        }
+      });
+    });
+  }
+};
+
+
+function formatDate(streamId) {
+  var timestamp = document.querySelectorAll('.tile['+ streamId + '] .friendly-timestamp .timeago');
+
+  var changDate = (dateArray, dateSelector) => {
+     for(var i = 0; i < dateArray.length; i++) {
+       var element = dateArray[i];
+       var currentDate = dateSelector === 'innerHTML' ? moment(element.innerHTML).format('MMMM D, YYYY') : moment(element.title).format('MMMM D, YYYY');
+       currentDate !== 'Invalid Date' ? element.innerHTML = currentDate : '';
+     }
+   };
+
+  changDate(timestamp, 'title');
+};
+
+
+setTimeout(function() {
+  updateTileLabels(customLabels);
+  formatDate('data-source-stream-id="3314489"');
+}, 8000);

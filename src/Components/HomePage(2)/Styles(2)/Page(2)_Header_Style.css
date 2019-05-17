@@ -1,0 +1,312 @@
+@font-face{
+  font-family:"Open-Seans-Bold";
+  src:url("../fonts(2)/Open-Seans/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face{
+  font-family:"Open-Seans-Links";
+  src:url("../fonts(2)/Open-Seans/OpenSans-Regular.ttf") format("truetype");
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Open-Seans-Bold";
+}
+
+li#Adroll_On_Logo_li{
+  z-index: 10;
+  background: #fff;
+}
+li#Adroll_Off_Logo_li{
+  
+  position: absolute;
+  background: #F4F6F9;
+}
+li#RollWorks_Off_Image_li:hover{
+  opacity: 0;
+  
+}
+div.Logos-Div{
+  position: absolute;
+  width: 50%;
+  left: 0px;
+  background: #F4F6F9;
+  top: -3px;
+}
+#RollWorks_Off_Image_li{
+  background: #F4F6F9;
+  left: 126px;
+  position: absolute
+}
+
+.Logos-Div ul li{
+  position: relative;
+ 
+  float: left;
+  display: table;
+  height:100%;
+
+  
+  
+}
+.Logos-Div img{
+
+  max-height: 15px;
+  display: block;
+}
+li {
+  list-style-type: none; /* Убираем маркеры */
+ }
+ ul {
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+ }
+ div.Logos-Div a.logslinks{
+  padding: 3px 1.4em 0;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  cursor: pointer;
+  height: 40px;
+  color: #333;
+ }
+ .Logos-Div ul{
+   margin: 0;
+   height: 100%;
+ }
+
+
+ div{
+  
+ }
+ .nav-picker-icon-2{
+  position: relative;
+  background: #F4F6F9;
+  
+  width: 50%;
+  left: 50%;
+  height: 40px;
+  margin: 0;
+ }
+
+ .lang-contaniner{
+   position: absolute;
+   background: yellow;
+   margin-left: 813px;
+
+ }
+ .lang-contaniner img{
+  width: 12px;
+  height: 8px;
+ 
+  top: 1.6em;
+  margin-left: 15px;
+  margin-right: 8px;
+ }
+
+.lang-current{
+
+  font-size: .6em;
+
+  color: #333;
+  height: 40px;
+  
+  display: table-cell;
+  vertical-align: middle;
+
+  text-decoration: none;
+  width: 115px;
+  background: #E5E9F2;
+  font-weight: bold;
+}
+.flags_ul a{
+  font-size: .6em;
+
+  color: #333;
+  height: 25px;
+  
+  display: table-cell;
+  letter-spacing: 0px;
+  vertical-align: middle;
+
+  text-decoration: none;
+  width: 115px;
+  background: #E5E9F2;
+
+ 
+  font-weight: bold;
+}
+#pader-lang{
+  margin: 0;
+  
+}
+.flags_ul a{
+  color: #8492A6;
+}
+.flags_ul a:hover, .lang-current:hover{
+  color: #333;
+  background: #F4F6F9;
+}
+.nav-content li ul{
+  
+  display:none !important;
+
+}
+.nav-content li:hover >ul{
+  display: block !important;
+}
+.lang-current{
+  
+}
+.nav-content li{
+
+  height: 100%;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  text-align: center;
+ 
+  margin: 0;
+  height: 100%;
+}
+.nav-content li a{
+  font-family:"Open-Seans-Links";
+  display: block;
+  display: table-cell;
+  font-size: 14px;
+  font-weight: normal;
+  padding: .95em 1.5em;
+  text-align: left;
+  color: #3C4858;
+}
+.nav-content li a:hover{
+  color: #00aeef;
+}
+.nav-content li ul li a{
+
+  line-height: 1.65em;
+  font-family:"Open-Seans-Links";
+  display: block;
+  display: table-cell;
+  font-size: 14px;
+  font-weight: normal;
+  padding: .95em 1.5em;
+  text-align: left;
+  color: #3C4858;
+}
+.nav-login-icon{
+  position: relative;
+  margin-left: 1640px;
+  top: 13px;
+  z-index: 0;
+}
+
+.cta.fill-gradient {
+  position: absolute;
+  top: -15px;
+  background-image: linear-gradient(45deg, #00d4c3, #9327f5);
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+header{
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  height: 118px;
+  z-index: 999;
+  border-bottom: 1px solid  #F4F6F9;
+}
+#font-buged{
+  font-family:"Open-Seans-Links";
+}
+.cta.fill-gradient:hover{background-position:right center;color:#fff !important}
+.cta {
+  
+  display: inline-block;
+ 
+  border-radius: 5px;
+  transition: all 150ms ease-in-out;
+  font-size: 14px;
+  
+  font-weight: 400;
+  letter-spacing: 1px;
+  background-size: 200% auto;
+
+  padding: 1.2em 2.0em;
+  width: 127px;
+  
+}
+.nav-login-icon ul{
+  display: table;
+}
+
+.nav-login-icon ul li{
+  display: block;
+  
+  float: left;
+  margin-right: 20px;
+}
+
+.nav-content li ul{
+position: absolute;
+background: none;
+width: 205px;
+background: #fff;
+padding-top: 17px;
+display: table-cell;
+
+}
+
+
+.nav-content li ul li a{
+
+width: 180px;
+background: none;
+ 
+}
+.menu-lists-links{
+
+  
+}
+.nav-content li ul li a:hover{
+  color: #00aeef;
+  text-decoration: underline;
+  background: #F4F6F9;
+}
+a {
+  color: #00aeef;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+  transition: all 150ms ease-in-out;
+  transition-property: all;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+.flags_ul{
+  display: none;
+  
+}
+.lang-contaniner{
+  z-index: 999;
+}
+ul li:hover > ul{
+  
+  display: block;
+}
+#login-link{
+  font-family:"Open-Seans-Links";
+  font-size: 15px;
+  color: #333;
+  
+}
+#login-link:hover{
+  color: #00aeef;
+}
+@media screen and (max-width: 768px) {
+  body{
+    background: red;
+  }
+}

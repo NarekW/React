@@ -1,0 +1,59 @@
+.Homepge-3{
+    position: absolute;
+    margin-top:690px;
+    margin-left: 455px;
+    text-align: center;
+}
+#DTG-landing a{
+    color: red;
+    
+    float: left;
+    position: relative;
+    right: 50px;
+    margin-left: 100px;
+    
+}
+#DTG-landing a:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+#inf{
+    margin-bottom: 75px;
+}
+#row-block h1, h2, h3 {
+    
+    color: #3C4858;
+    margin: 0 0 .5em;
+    font-weight: 700;
+}
+h3 {
+    font-size: 1.375rem;
+    line-height: 2.25rem;
+}
+hr.gradient-teal-purple {
+    display: block;
+    width: 150px;
+    height: 2px;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    background: linear-gradient(to right, #13beca, #4287da, #7847ec);
+    border: none;
+}
+#inf p {
+    line-height: 1.667;
+    font-family: "Open-Seans-Links";
+    color: #3C4858;
+   
+}
+ .titlos{
+    color: black;
+    font-family: "Open-Seans-Bold";
+}
+p.subs{
+    line-height: 1.667;
+    font-family: "Open-Seans-Links";
+    color: #3C4858;
+}
+.elements img {
+    max-height: 60px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,47 @@
+.Homepge-6-jan-2-7{
+    position: absolute;
+    top: 2100px;
+    width: 100%;
+    height: 200px;
+
+   color: #333;
+    
+}
+.imgcar{
+    float: left;
+    margin-left: 0px;
+}
+.Homepge-6-jan-2-7 .col_2{
+    position: relative;
+    background: red;
+    float: left;
+    margin-left: 50px;
+}
+.Homepge-6-jan-2-7 img{
+    max-width: 120px;
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    vertical-align: bottom;
+    z-index: 7;
+  
+}
+.Homepge-6-jan .text3{
+    color: #333;
+}
+.wrapper-tall-top{
+    position: absolute;
+   
+    bottom: 80px;
+  
+}
+.cotmg{
+    position: relative;
+    margin-left: 600px;
+    margin-top:50px;
+}
+#clone_8 {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 850px;
+}

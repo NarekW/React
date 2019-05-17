@@ -1,0 +1,106 @@
+.Homepge-2{
+    width: 100%;
+    margin-top: 100px;
+    z-index: 0;
+  
+    position: absolute;
+}
+.bkgd-purple-red-gradient{
+    z-index: 0;
+    position: relative;
+   overflow: hidden; 
+    height: 525px;
+    background: #00aeef;
+    background: -webkit-linear-gradient(top left, #9327f5 0%, #ff1453 100%);
+    background: -o-linear-gradient(top left, #9327f5 0%, #ff1453 100%);
+    background: linear-gradient(to bottom right, #9327f5 0%, #ff1453 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$purple', endColorstr='$red',GradientType=1 );
+    color: #fff;
+
+}
+.row-table{
+    width: 470px;
+    margin-top: 18px;
+    position: relative;
+    top: 113px;
+    margin-left: 471px;
+    z-index: 0 !important;
+}
+h1, h2, h3 {
+    font-family: 'Lora-Bolid';
+    margin: 0 0 .5em;
+    font-weight: 700;
+}
+h1 {
+    margin-top: 0;
+    font-size: 2.375rem;
+    line-height: 3.25rem;
+}
+.row-table p {
+    margin: 0 0 1.3em;
+    line-height: 1.667;
+    font-family:"Open-Seans-Links";
+    font-size: 1rem;
+    
+}
+
+.btn-animate-outer{width:186px;border:2px solid white;border-radius:5px}.btn-animate-outer:hover{border:none;padding:2px}.btn-animate-outer .btn-animate-text{color:white}
+.btn-animate-dark-green{width:190px;border:2px solid #57F5F7;border-radius:5px}.btn-animate-dark-green:hover{border:none;padding:2px}.btn-animate-dark-green a{color:black}.btn-animate-dark{width:190px;border:2px solid #3C4858;border-radius:5px;margin-left:auto;margin-right:auto}.btn-animate-dark a{color:black !important}.btn-animate-dark:hover{border:none;padding:2px;color:white !important}.btn-animate-inner-blurple{border-radius:5px;display:block;background:linear-gradient(45deg, #25d0c4, #33bbca, #607ddc, transparent, 50%, transparent 100%);background-size:428% 100%;background-position:right bottom;transition:all .65s ease-out}.btn-animate-inner-blurple:hover{background-position:left bottom;color:white}.btn-animate-inner-blurple 
+.cta{margin-top:0}
+.btn-animate-inner-blurple 
+.btn-animate-text{text-align:center;color:#3C4858;transition:all .5s ease-out;display:block;text-transform:uppercase;font-weight:bold; }
+.btn-animate-text:hover{color:#fff}
+.btn-animate-inner-green{border-radius:5px;display:block;background:linear-gradient(45deg, #e9fb75, #b3f8a7, #57F5F7, transparent, 50%, transparent 100%);background-size:428% 100%;background-position:right bottom;transition:all .65s ease-out}.btn-animate-inner-green:hover{background-position:left bottom}
+.btn-animate-inner-green 
+.cta{margin-top:0}.btn-animate-inner-green .btn-animate-text{text-align:center;transition:all .5s ease-out;display:block;text-transform:uppercase;font-weight:bold}.btn-animate-inner-green 
+.btn-animate-text:hover{color:#3C4858}
+.btn-animate-inner-red{border-radius:5px;display:block;background:linear-gradient(45deg, #fa1d5a, #de2583, #c22bab, transparent, 50%, transparent 100%);background-size:428% 100%;background-position:right bottom;transition:all .65s ease-out}
+.btn-animate-inner-red:hover{ background-position:left bottom}.btn-animate-inner-red:hover a{color:white !important}.btn-animate-inner-red 
+.cta{margin-top:0}
+.btn-animate-inner-red .btn-animate-text{text-align:center;transition:all .5s ease-out;display:block;text-transform:uppercase;font-weight:bold}.btn-animate-inner-red 
+.btn-animate-text:hover{color:white}
+.btn-animate-text{
+    width:134px;
+}
+p.secondary-cta{
+    font-family: "Open Sans",sans-serif;
+    position: relative;
+    font-weight: bold;
+    bottom: 3px;
+    letter-spacing: 1px;
+    opacity: .6;text-transform: uppercase;font-size:12px;
+ 
+}
+h4 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+
+    font-weight: 700;
+    margin: 0 0 .75em;
+}
+.info {
+    outline: none;
+    position: absolute;
+    z-index: 90;
+    width: 180px;
+    margin-left: 325px;
+    margin-top: 58px;
+    top: 0;
+}
+.family{
+    margin-top: -8px;
+    margin-bottom: -10px;
+}
+.opisanie{
+    font-family: "Open-Seans-Links";
+    color: #fff;
+    font-size: 1em;
+    line-height: 18px;
+}
+.info h4{
+    margin-bottom: 5px;
+}
+@font-face {
+    font-family: 'Lora-Bolid';
+    src: url('../fonts(1)/Lora/Lora-Bold.ttf');
+  }

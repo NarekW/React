@@ -1,0 +1,30 @@
+.Homepge-6-jan-2{
+    position: absolute;
+    top: 1750px;
+    width: 100%;
+    height: 307px;
+
+   color: #333;
+    
+}
+.Homepge-6-jan .text3{
+    color: #333;
+}
+.wrapper-tall-top{
+    position: absolute;
+   
+    bottom: 80px;
+  
+}
+#clone_8 {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 850px;
+}
+.col_8 img{
+    width: 100%;
+    max-width: 480px;
+    position: relative;
+    vertical-align: bottom;
+    z-index: 7;
+}

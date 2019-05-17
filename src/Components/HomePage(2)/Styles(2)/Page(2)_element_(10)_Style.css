@@ -1,0 +1,38 @@
+.Homepge-1009{
+    position: absolute;
+    margin-top: 2705px;
+    background: #9327f5;
+    background: -webkit-linear-gradient(30deg, #9327f5 30%, #00aeef 100%);
+    margin-bottom: 100px;
+    height: 350px;
+    width: 100%;
+}
+.Homepge-1009.abstract-lines{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 130px;
+}
+.Homepge-1009.t1{
+    text-align: center;
+    line-height: 2.5em;
+    color: #fff;
+}
+.bkgd-green-gradient {
+    background: #00d6ef;
+    background: -webkit-linear-gradient(top left, #00d6ef 0%, #05D280 100%);
+    background: -o-linear-gradient(top left, #00d6ef 0%, #05D280 100%);
+    background: linear-gradient(to bottom right, #00d6ef 0%, #05D280 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$blue', endColorstr='$green',GradientType=1 );
+    color: #fff;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+#endure{
+   position: relative;
+   bottom: -100px;
+}
+.Homepge-1009#end_button{
+position: relative;
+top: 15px;
+left: 140px;
+}

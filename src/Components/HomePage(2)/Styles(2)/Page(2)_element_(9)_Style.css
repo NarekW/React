@@ -1,0 +1,35 @@
+.Homepge-9-2{
+    position: absolute;
+    margin-top: 2414px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    height: 380px;
+    width: 100%;
+}
+.Homepge-9-2.abstract-lines{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 130px;
+}
+#home-support{
+    position: relative;
+    left: 300px;
+    margin-top: -50px;
+}
+.Homepge-9-2 img{
+    position: absolute;
+ margin-bottom: 0;
+ padding: 0;
+ right: 500px;
+bottom: -100px;
+ margin: 0;
+    max-width: 100%;
+}
+.Homepge-9-2.t1{
+    color: #fff;
+}
+.Homepge-9-2 #end_button{
+position: relative;
+top: 15px;
+left: 140px;
+}

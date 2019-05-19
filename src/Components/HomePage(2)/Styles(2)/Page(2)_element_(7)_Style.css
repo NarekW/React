@@ -22,6 +22,7 @@
     position: relative;
     float: left;
     margin-left: 50px;
+    margin-top: 0;
     vertical-align: bottom;
     z-index: 7;
   
@@ -37,7 +38,7 @@
 }
 .cotmg{
     position: relative;
-    margin-left: 600px;
+    margin-left: 420px;
     margin-top:50px;
 }
 #clone_8 {

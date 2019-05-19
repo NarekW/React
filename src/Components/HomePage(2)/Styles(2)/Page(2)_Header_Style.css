@@ -11,20 +11,33 @@ body{
   margin: 0;
   font-family: "Open-Seans-Bold";
 }
+#Adroll_Off_Logo_li_2{
+  z-index: 1000;
+  opacity: 1;
+}
+#Adroll_Off_Logo_li_2:hover{
+  opacity: 0;
 
-li#Adroll_On_Logo_li{
-  z-index: 10;
+  
+}
+.cta.fill-green {
+  background: #04BF74;
+  color: #fff;
+  border: 2px solid #04BF74;
+  width: 160px;
+  margin-top: -50px;
+  text-transform: uppercase;
+}
+li#Adroll_On_Logo_li_2{
+
   background: #fff;
 }
-li#Adroll_Off_Logo_li{
+li#Adroll_Off_Logo_li_2{
   
   position: absolute;
   background: #F4F6F9;
 }
-li#RollWorks_Off_Image_li:hover{
-  opacity: 0;
-  
-}
+
 div.Logos-Div{
   position: absolute;
   width: 50%;
@@ -32,10 +45,15 @@ div.Logos-Div{
   background: #F4F6F9;
   top: -3px;
 }
-#RollWorks_Off_Image_li{
+#RollWorks_Off_Image_li_2{
   background: #F4F6F9;
+  
   left: 126px;
   position: absolute
+}
+li#RollWorks_On_Image_li_2{
+  background: #fff;
+  z-index: 1000;
 }
 
 .Logos-Div ul li{
@@ -146,18 +164,18 @@ li {
   color: #333;
   background: #F4F6F9;
 }
-.nav-content li ul{
+.nav-content-2 li ul{
   
   display:none !important;
 
 }
-.nav-content li:hover >ul{
+.nav-content-2 li:hover >ul{
   display: block !important;
 }
 .lang-current{
   
 }
-.nav-content li{
+.nav-content-2 li{
 
   height: 100%;
   float: left;
@@ -168,7 +186,7 @@ li {
   margin: 0;
   height: 100%;
 }
-.nav-content li a{
+.nav-content-2 li a{
   font-family:"Open-Seans-Links";
   display: block;
   display: table-cell;
@@ -178,10 +196,10 @@ li {
   text-align: left;
   color: #3C4858;
 }
-.nav-content li a:hover{
-  color: #00aeef;
+.nav-content-2 li a:hover{
+  color: #04BF74;
 }
-.nav-content li ul li a{
+.nav-content-2 li ul li a{
 
   line-height: 1.65em;
   font-family:"Open-Seans-Links";
@@ -193,9 +211,10 @@ li {
   text-align: left;
   color: #3C4858;
 }
-.nav-login-icon{
+.nav-login-icon-2{
   position: relative;
-  margin-left: 1640px;
+  display: block;
+  margin-left: 1540px;
   top: 13px;
   z-index: 0;
 }
@@ -236,18 +255,19 @@ header{
   width: 127px;
   
 }
-.nav-login-icon ul{
-  display: table;
+.nav-login-icon-2 ul{
+  position: relative;
+  left: 65px;
 }
 
-.nav-login-icon ul li{
+.nav-login-icon-2 ul li{
   display: block;
   
   float: left;
   margin-right: 20px;
 }
 
-.nav-content li ul{
+.nav-content-2 li ul{
 position: absolute;
 background: none;
 width: 205px;
@@ -257,8 +277,7 @@ display: table-cell;
 
 }
 
-
-.nav-content li ul li a{
+.nav-content-2 li ul li a{
 
 width: 180px;
 background: none;
@@ -268,8 +287,11 @@ background: none;
 
   
 }
-.nav-content li ul li a:hover{
-  color: #00aeef;
+.col_4{
+  color: #333;
+}
+.nav-content-2 li ul li a:hover{
+  color: #04BF74;
   text-decoration: underline;
   background: #F4F6F9;
 }

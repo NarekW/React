@@ -19,14 +19,8 @@ function Footer() {
       <ul class='footer-flex-container'>
 
       <li class='footer-block'>
-      <a class='lenks'>Why Adroll</a>
-      <ul>
-      <li><a href="/why-adroll">Overview</a></li>
-      <li><a href="/why-adroll">API</a></li>
-      <li><a href="/why-adroll">Whats New</a></li>
-      <li><a href="/why-adroll">Pricing</a></li>
-
-      </ul>
+      <a class='lenks'>Why RollWorks?</a>
+      
       </li>
 
       <li class='footer-block'>
@@ -41,7 +35,7 @@ function Footer() {
       </li>
 
       <li class='footer-block'>
-      <a  href="/why-adroll" class='lenks'>Partners</a>
+      <a  href="/why-adroll" class='lenks'>Resources</a>
       <ul>
       <li><a href="/why-adroll">Agencies</a></li>
       <li><a href="/why-adroll">Intergrations</a></li>
@@ -50,7 +44,7 @@ function Footer() {
       </li>
 
       <li class='footer-block'>
-      <a>Lean More</a>
+      <a>About</a>
       <ul>
       <li><a href="/why-adroll">AdRoll Blog</a></li>
       <li><a href="/why-adroll">Resources</a></li>
@@ -59,37 +53,14 @@ function Footer() {
       </ul>
       </li>
 
-      <li class='footer-block'>
-      <a>Company</a>
-      <ul>
-      <li><a href="/why-adroll">About</a></li>
-      <li><a href="/why-adroll">Events</a></li>
-      <li><a href="/why-adroll">New</a></li>
-      <li><a href="/why-adroll">Careers</a></li>
-      <li><a href="/why-adroll">AdRoll Group Engineering</a></li>
-    
-      </ul>
-      </li>
+      
 
       </ul>
       </div>
 
 
   <div class="footer-social">
-  <ul>
-    <li>
-      <a href="https://www.facebook.com/adroll" target="_blank"><i class="fab fa-facebook-square"></i></a>
-    </li>
-    <li>
-      <a href="https://www.linkedin.com/showcase/adroll" target="_blank"><i class="fab fa-linkedin"></i></a>
-    </li>
-    <li>
-      <a href="https://www.instagram.com/adroll" target="_blank"><i class="fab fa-instagram"></i></a>
-    </li>
-    <li>
-      <a href="https://twitter.com/AdRoll" target="_blank"><i class="fab fa-twitter"></i></a>
-    </li>
-  </ul>
+ <p class="cta-link">Watch an ABM routine &gt;</p>
   </div>
   <div class="footer-social">
   <ul>

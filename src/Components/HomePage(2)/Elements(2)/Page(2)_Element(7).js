@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom';
 import '../Styles(2)/Page(2)_element_(7)_Style.css';
 
 import Termometr from '../img(2)/pagerduty.png';
+import pantheon_bw from '../img(2)/pantheon_bw-1.png';
+import transpay from '../img(2)/transpay.png'; 
+import wpengine from '../img(2)/wpengine.png';
+import orcle from '../img(2)/oracle-dynn.png';
+import ibm from '../img(2)/ibm.png';
+
 
 
 function Homepage_6() {
@@ -22,13 +28,19 @@ function Homepage_6() {
           <img src={Termometr}/>
           </div>
           <div className='col_8'>
-          <img src={Termometr}/>
+          <img src={pantheon_bw}/>
           </div>
           <div className='col_8'>
-          <img src={Termometr}/>
+          <img src={transpay}/>
           </div>
           <div className='col_8'>
-          <img src={Termometr}/>
+          <img src={wpengine}/>
+          </div>
+          <div className='col_8'>
+          <img src={ibm}/>
+          </div>
+          <div className='col_8'>
+          <img src={orcle}/>
           </div>
           </div>
           

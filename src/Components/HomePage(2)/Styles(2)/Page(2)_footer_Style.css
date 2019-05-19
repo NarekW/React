@@ -14,6 +14,11 @@
 body{
 
 }
+.cta-link {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #04BF74;
+}
 
 .footerblock-2 footer #footer-nav #footer-nav-bottom ul li ul li {
     text-transform: none;
@@ -63,18 +68,18 @@ body{
    
 
 }
-.footerblock-2.footer-social{
+.footerblock-2.footer-social-2{
     position: relative;
     margin-left: 950px;
     bottom: 150px;
     width: 150px;
     background: none;
 }
-.footerblock-2.footer-social ul li{
+.footerblock-2.footer-social-2 ul li{
     display: inline;
-    padding-left: 15px;
+    padding-left: 150px;
 }
-.footerblock-2.footer-social a{
+.footerblock-2.footer-social-2 a{
     color: #333;
 }
 
@@ -131,7 +136,7 @@ body{
     width: 10000px;
     height: 200px;
 }
-.footerblock-2.footer-social a:hover{
+.footerblock-2.footer-social-2 a:hover{
     cursor: pointer;
     border-bottom: solid 1px black;
 }

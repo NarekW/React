@@ -66,7 +66,7 @@ function Homepage_2() {
     return(
         <div className='Homepge-2'>
         <section class="homepage homepage-1 bkgd-purple-red-gradient">
-        <div class="container row-table" id="homepage-hero">
+        <div class="container row-table-1" id="homepage-hero">
             <div class="col_8 wrapper-tall-hero">
                 <h1>Grow your business.<br />Boost your sales.</h1>
                 <p>Attract and convert visitors to your online store with display ads, social, email, and now video ads.</p>

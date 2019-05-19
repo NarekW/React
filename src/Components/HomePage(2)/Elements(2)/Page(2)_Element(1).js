@@ -70,7 +70,8 @@ function Homepage_2() {
         <div class="container row-table" id="homepage-hero">
             <div class="col_8 wrapper-tall-hero">
             <h1>Take the lead with your account-based programs</h1>
-                <p>Attract and convert visitors to your online store with display ads, social, email, and now video ads.</p>
+            <p>Generate more opportunities and close B2B deals faster<br />
+             with RollWorks.</p>
             </div>
             <div class="btn-animate-outer2">
             <div>

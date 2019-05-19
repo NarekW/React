@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../Styles(2)/Page(2)_element_(2)_Style.css';
-import Magnetic  from '../img(2)/measure.png';
-import Convert  from '../img(2)/measure.png';
+import Magnetic  from '../img(2)/identify.png';
+import Convert  from '../img(2)/engage.png';
 import Cart  from '../img(2)/measure.png';
 
 function Homepage_3() {
     return(
-     <div className='Homepge-3'>
+     <div className='Homepge-3-2'>
      <div className='row-block'>
      <div className='col_8' id='inf'>
      <h3>Make B2B marketing moves no one can ignore</h3>
@@ -18,24 +18,21 @@ function Homepage_3() {
     <div id='DTG-landing' className='SL_swap row-block wrapper text-center elements'>
         <a href='#' className='col_4'>
             <img src={Magnetic}/>
-            <p className='titlos'>ATTRACT</p>
-            <p class="subs">Find more of the right shoppers<br />
-             with ad campaigns that span<br />
-            across top sites, social, emails,<br />and beyond.</p>
+            <h3>Identification</h3>
+            <p>Measure the effectiveness of your B2B<br/>
+             and ABM programs.</p>
         </a>
         <a href='#' className='col_4'>
             <img src={Convert}/>
-            <p className='titlos'>CONVERT</p>
-            <p class="subs">Find more of the right shoppers<br />
-             with ad campaigns that span<br />
-            across top sites, social, emails,<br />and beyond.</p>
+            <h3>Engagement</h3>
+            <p>Measure the effectiveness of your B2B<br/>
+             and ABM programs.</p>
         </a>
         <a href='#' className='col_4'>
             <img src={Cart}/>
-            <p className='titlos'>MEASURE</p>
-            <p class="subs">Find more of the right shoppers<br />
-             with ad campaigns that span<br />
-            across top sites, social, emails,<br />and beyond.</p>
+            <h3>Measurement</h3>
+            <p>Measure the effectiveness of your B2B<br/>
+             and ABM programs.</p>
         </a>
     </div>
     </div>

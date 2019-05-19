@@ -11,7 +11,7 @@ function Homepage_6() {
      <section >
                 
     <div class="col_4 wrapper wrapper-tall-top text-left" >
-      <h3 class='text3'>Confidently grow revenue with<br/> an account-based platform</h3>
+      <h3 class='text3' id='bitp-2'>Confidently grow revenue with<br/> an account-based platform</h3>
  
       <p id="textso" class='text3'>Adjust and learn from every aspect of your<br />
        campaigns. We’ve built an arsenal of<br />
@@ -19,7 +19,7 @@ function Homepage_6() {
          make $246 billion worth of sales every<br />
           year.</p>
     </div>
-    <div class="col_8 text-right" id='clone_8'>
+    <div class="col_8 text-right narekimg2" id='clone_8'>
       <img src={Termometr}/>
     </div>
     </section>

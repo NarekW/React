@@ -1,11 +1,11 @@
-.Homepge-3{
+.Homepge-3-2 {
     position: absolute;
     margin-top:690px;
-    margin-left: 455px;
+    margin-left: 355px;
     text-align: center;
 }
-#DTG-landing a{
-    color: red;
+.Homepge-3-2 #DTG-landing a{
+    color: #333;
     
     float: left;
     position: relative;
@@ -13,23 +13,21 @@
     margin-left: 100px;
     
 }
-#DTG-landing a:hover {
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
-#inf{
+
+  .Homepge-3-2 #inf{
     margin-bottom: 75px;
 }
-#row-block h1, h2, h3 {
+.Homepge-3-2 #row-block h1, h2, h3 {
     
     color: #3C4858;
     margin: 0 0 .5em;
     font-weight: 700;
 }
-h3 {
+.Homepge-3-2 h3 {
     font-size: 1.375rem;
     line-height: 2.25rem;
 }
-hr.gradient-teal-purple {
+.Homepge-3-2 hr.gradient-teal-purple {
     display: block;
     width: 150px;
     height: 2px;
@@ -38,22 +36,39 @@ hr.gradient-teal-purple {
     background: linear-gradient(to right, #13beca, #4287da, #7847ec);
     border: none;
 }
-#inf p {
+.Homepge-3-2 #inf p {
     line-height: 1.667;
     font-family: "Open-Seans-Links";
     color: #3C4858;
    
 }
- .titlos{
+.Homepge-3-2  .titlos{
     color: black;
-    font-family: "Open-Seans-Bold";
+    font-family: "Work Sans",sans-serif;
 }
-p.subs{
+.Homepge-3-2 p.subs{
     line-height: 1.667;
     font-family: "Open-Seans-Links";
     color: #3C4858;
 }
-.elements img {
+.Homepge-2-pageTwo h1{
+    font-family: "Work Sans",sans-serif;
+}
+.Homepge-1009 h2{
+   
+    font-family: "Work Sans",sans-serif;
+}
+#DTG-landing h3{
+    font-family: "Work Sans",sans-serif;
+}
+#bitp-2{
+    color: #3C4858;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+     
+}
+.Homepge-3-2  .elements img {
     max-height: 60px;
     margin-bottom: 20px;
 }

@@ -7,6 +7,16 @@
    color: #333;
     
 }
+p a {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #04BF74;
+}
+  
+  .col_12  a.borderlink{
+    color: #3C4858;
+    border-bottom: 5px solid #05D280;
+  }
 .Homepge-6-jan .text3{
     color: #333;
 }

@@ -7,7 +7,7 @@
     color: #3C4858;
     font-family: "Open-Seans-Links";
     font-weight: 300;
-    font-size: .75em;
+    font-size: .70em;
     border-bottom: 1px solid transparent;
     
 }
@@ -51,7 +51,10 @@ footer #footer-nav #footer-nav-bottom ul li {
 .footer-flex-container li ul li a{
 
     font-weight: 300;
-    color: #3C4858;
+    color: #4C596B;
+    font-size: .75em;
+   
+    font-family: "Open-Seans-Links";
     line-height: 1.667;
 } 
 .footer-flex-container li a{ 
@@ -64,10 +67,11 @@ footer #footer-nav #footer-nav-bottom ul li {
 
 }
 .footer-social{
+
     position: relative;
     margin-left: 950px;
     bottom: 150px;
-    width: 150px;
+    width: 500px;
     background: none;
 }
 .footer-social ul li{
@@ -104,12 +108,13 @@ footer #footer-sub p {
     font-size: .65em;
     color: #3C4858;
     position: relative;
-    left: 500px;
+    left: 315px;
 }
 #ender li a{
     color: #3C4858;
     font-weight: bold;
-    font-size: .85em;
+    font-size: .80em;
+    
     border-bottom: 1px solid transparent;
 }
 #ender li a:hover{

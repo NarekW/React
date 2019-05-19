@@ -46,7 +46,7 @@ const Home = () =>(
 )
 const rollWorks = () =>(
   
-    <div className='main'>
+    <div className='main-2'>
         <Homepage_2_Header/>
         <Homepage_2_element_1/>
         <Homepage_2_element_2/>
@@ -56,7 +56,6 @@ const rollWorks = () =>(
         <Homepage_2_element_8/>
         <Homepage_2_element_10/>
         <Homepage_2_footer/>
-        
     </div>
 
 )

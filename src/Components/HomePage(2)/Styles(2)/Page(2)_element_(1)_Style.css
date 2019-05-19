@@ -5,6 +5,9 @@
   
     position: absolute;
 }
+.Homepge-2-pageTwo h1 h2 h3 h4{
+    font-family: "Work Sans",sans-serif;
+}
 .Homepge-2-pageTwo img{
     margin-left: 950px;
     margin-top: -230px;
@@ -20,8 +23,16 @@
     background: #08D6ED;
    
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$purple', endColorstr='$red',GradientType=1 );
-    color: #333;
+    color: #3C4858;
 
+}
+.Homepge-1009 p{
+    color: white;
+    
+}
+.Homepge-1009 h2{
+    color: white;
+    
 }
 .cta.fill-white {
     background: #fff;
@@ -30,6 +41,8 @@
     border: 2px solid #fff;
     text-transform: uppercase;
 }
+.cta.fill-green:hover{background:#05D280;border:2px solid #05D280;color:#fff}
+.cta.fill-white:hover{background:#f2f2f2}
 .row-table{
     width: 470px;
     margin-top: 18px;
@@ -42,7 +55,7 @@
 .row-table p {
     margin: 0 0 1.3em;
     line-height: 1.667;
-  
+    font-family: "Open-Seans-Links";
     font-size: 1rem;
     
 }
